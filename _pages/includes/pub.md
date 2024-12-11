@@ -9,7 +9,7 @@
 [Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions](https://doi.org/10.5194/essd-14-1639-2022) \\
 **Zhu Deng**, Philippe Ciais*, Zitely A. Tzompa-Sosa, Marielle Saunois, Chunjing Qiu, Chang Tan, Taochun Sun, Piyu Ke, Yanan Cui, Katsumasa Tanaka, Xin Lin, Rona L. Thompson, Hanqin Tian, Yuanzhi Yao, Yuanyuan Huang, Ronny Lauerwald, Atul K. Jain, Xiaoming Xu, Ana Bastos, Stephen Sitch, Paul I. Palmer, Thomas Lauvaux, Alexandre d'Aspremont, Clément Giron, Antoine Benoit, Benjamin Poulter, Jinfeng Chang, Ana Maria Roxana Petrescu, Steven J. Davis, Zhu Liu*, Giacomo Grassi, Clément Albergel, Francesco N. Tubiello, Lucia Perugini, Wouter Peters, and Frédéric Chevallier
 
-<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span></strong><img src='images/esi-highly-cited-paper.png' width="10px"><img src='images/esi-hot-paper.png'>
+<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span></strong><img src='images/esi-highly-cited-paper.png' width="20px">ESI Highly Cited Paper<img src='images/esi-hot-paper.png' width="20px">ESI Hot Paper
 
 [//]: # (- FastSpeech is the first fully parallel end-to-end speech synthesis model.)
 [//]: # (- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![]&#40;https://img.shields.io/github/stars/espnet/espnet?style=social&#41;]&#40;https://github.com/espnet/espnet&#41;. Our work are promoted by more than 20 media and forums, such as [机器之心]&#40;https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ&#41;、[InfoQ]&#40;https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu&#41;.)
