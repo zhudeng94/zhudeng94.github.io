@@ -2,7 +2,6 @@
 # 📝 Publications 
 ## 🎙 Selected Publications
 
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Earth System Science Data</div><img src='https://essd.copernicus.org/articles/14/1639/2022/essd-14-1639-2022-f03-web.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -11,14 +10,10 @@
 **Earth System Science Data**, 2022, 14, 1639–1675 (2022)
 
 <strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span></strong><img src='images/esi-highly-cited-paper.png' width="20px">ESI Highly Cited Paper<img src='images/esi-hot-paper.png' width="20px">ESI Hot Paper
-
-[//]: # (- FastSpeech is the first fully parallel end-to-end speech synthesis model.)
-[//]: # (- **Academic Impact**: This work is included by many famous speech synthesis open-source projects, such as [ESPNet ![]&#40;https://img.shields.io/github/stars/espnet/espnet?style=social&#41;]&#40;https://github.com/espnet/espnet&#41;. Our work are promoted by more than 20 media and forums, such as [机器之心]&#40;https://mp.weixin.qq.com/s/UkFadiUBy-Ymn-zhJ95JcQ&#41;、[InfoQ]&#40;https://www.infoq.cn/article/tvy7hnin8bjvlm6g0myu&#41;.)
-[//]: # (- **Industry Impact**: FastSpeech has been deployed in [Microsoft Azure TTS service]&#40;https://techcommunity.microsoft.com/t5/azure-ai/neural-text-to-speech-extends-support-to-15-more-languages-with/ba-p/1505911&#41; and supports 49 more languages with state-of-the-art AI quality. It was also shown as a text-to-speech system acceleration example in [NVIDIA GTC2020]&#40;https://resources.nvidia.com/events/GTC2020s21420&#41;.)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-021-00244-x/MediaObjects/43017_2021_244_Fig4_HTML.png?as=webp' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-023-00406-z/MediaObjects/43017_2023_406_Fig1_HTML.png?as=webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Monitoring global carbon emissions in 2022](https://doi.org/10.1038/s43017-023-00406-z) \\
 Zhu Liu, **Zhu Deng**, Steve Davis, Philippe Ciais
@@ -27,7 +22,7 @@ Zhu Liu, **Zhu Deng**, Steve Davis, Philippe Ciais
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-021-00244-x/MediaObjects/43017_2021_244_Fig4_HTML.png?as=webp' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-022-00285-w/MediaObjects/43017_2022_285_Fig1_HTML.png?as=webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Monitoring global carbon emissions in 2021](https://doi.org/10.1038/s43017-022-00285-w) \\
 Zhu Liu, **Zhu Deng**, Steven J. Davis, Clement Giron & Philippe Ciais 
@@ -54,3 +49,4 @@ Zhu Liu, Philippe Ciais, **Zhu Deng (Co-first-author)**, Ruixue Lei, Steven J. D
 </div>
 </div>
 
+* Equal Contribution, # Corresponding Author
