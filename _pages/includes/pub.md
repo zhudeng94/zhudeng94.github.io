@@ -7,16 +7,8 @@
 [Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions](https://doi.org/10.5194/essd-14-1639-2022) \\
 **Zhu Deng**, Philippe Ciais, Zitely A. Tzompa-Sosa, Marielle Saunois, Chunjing Qiu, Chang Tan, Taochun Sun, Piyu Ke, Yanan Cui, Katsumasa Tanaka, Xin Lin, Rona L. Thompson, Hanqin Tian, Yuanzhi Yao, Yuanyuan Huang, Ronny Lauerwald, Atul K. Jain, Xiaoming Xu, Ana Bastos, Stephen Sitch, Paul I. Palmer, Thomas Lauvaux, Alexandre d'Aspremont, Clément Giron, Antoine Benoit, Benjamin Poulter, Jinfeng Chang, Ana Maria Roxana Petrescu, Steven J. Davis, Zhu Liu, Giacomo Grassi, Clément Albergel, Francesco N. Tubiello, Lucia Perugini, Wouter Peters, Frédéric Chevallier \\
 **Earth System Science Data**, 2022, 14, 1639–1675 (2022) \\
-<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span></strong><img src='images/esi-highly-cited-paper.png' width="20px">ESI Highly Cited Paper<img src='images/esi-hot-paper.png' width="20px">ESI Hot Paper
-</div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-023-00406-z/MediaObjects/43017_2023_406_Fig1_HTML.png?as=webp' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-[Monitoring global carbon emissions in 2022](https://doi.org/10.1038/s43017-023-00406-z) \\
-Zhu Liu, **Zhu Deng**, Steve Davis, Philippe Ciais \\
-**Nature Reviews: Earth & Environment**, 4, 205–206 (2023) \\
-<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:aqlVkmm33-oC'></span></strong>
+[//]: # (<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span></strong><img src='images/esi-highly-cited-paper.png' width="20px">ESI Highly Cited Paper<img src='images/esi-hot-paper.png' width="20px">ESI Hot Paper)
 </div>
 </div>
 
@@ -47,7 +39,7 @@ Zhu Liu, Philippe Ciais, **Zhu Deng (Co-first-author)**, Ruixue Lei, Steven J. D
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific data</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41467-020-18922-7/MediaObjects/41467_2020_18922_Fig3_HTML.png?as=webp' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Scientific data</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41597-020-00708-7/MediaObjects/41597_2020_708_Fig1_HTML.png?as=webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Carbon Monitor, a near-real-time daily dataset of global CO2 emission from fossil fuel and cement production](https://doi.org/10.1038/s41467-020-18922-7) \\
 Zhu Liu, Philippe Ciais, Zhu Deng, Steven J Davis, Bo Zheng, Yilong Wang, Duo Cui, Biqing Zhu, Xinyu Dou, Piyu Ke, Taochun Sun, Rui Guo, Haiwang Zhong, Olivier Boucher, François-Marie Bréon, Chenxi Lu, Runtao Guo, Jinjun Xue, Eulalie Boucher, Katsumasa Tanaka, Frédéric Chevallier \\
