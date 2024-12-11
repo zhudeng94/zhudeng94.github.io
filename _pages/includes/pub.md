@@ -29,6 +29,15 @@ Zhu Liu, **Zhu Deng**, Steven J. Davis, Clement Giron & Philippe Ciais
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-021-00244-x/MediaObjects/43017_2021_244_Fig4_HTML.png?as=webp' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
+[Monitoring global carbon emissions in 2022](https://doi.org/10.1038/s43017-023-00406-z) \\
+Zhu Liu, **Zhu Deng**, Steve Davis, Philippe Ciais
+**Nature Reviews: Earth & Environment**, 4, 205–206 (2023)
+<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:aqlVkmm33-oC'></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Nature Reviews: Earth & Environment</div><img src='https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43017-021-00244-x/MediaObjects/43017_2021_244_Fig4_HTML.png?as=webp' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 [Challenges and opportunities for carbon neutrality in China](https://doi.org/10.1038/s43017-021-00244-x) \\
 Zhu Liu, **Zhu Deng**, Gang He, Hailin Wang, Xian Zhang, Jiang Lin, Ye Qi, Xi Liang
 **Nature Reviews: Earth & Environment**, 3, 141–155 (2022)
