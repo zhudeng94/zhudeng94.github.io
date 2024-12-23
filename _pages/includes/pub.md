@@ -1,7 +1,7 @@
 
-# 📚PUBLICATIONS 
+# 📚 PUBLICATIONS 
 
-## 🌟SELECTED PUBLICATIONS
+## 🌟 SELECTED PUBLICATIONS
 
 - **Z Deng†**, P Ciais†, ZA Tzompa-Sosa, M Saunois, C Qiu, C Tan, T Sun, P Ke, Y Cui, K Tanaka, X Lin, RL Thompson, H Tian, Y Yao, Y Huang, R Lauerwald, AK Jain, X Xu, A Bastos, S Sitch, PI Palmer, T Lauvaux, A d’Aspremont, C Giron, A Benoit, B Poulter, J Chang, R Petrescu, SJ Davis, Z Liu, G Grassi, C Albergel, and F Chevallier. Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions. Earth System Science Data. 2022.  [Citations: 110]  
 - Z Liu†, **Z Deng†**, P Ciais, J Tan, B Zhu, SJ Davis, RM Andrew, O Boucher, SB Arou, JG Canadell, X Dou, P Friedlingstein, R Guo, C Hong, RBJackson, D Kammen, P Ke, C Le Quéré, C Monica, G Janssens-Maenhout, GP Peters, K Tanaka, Y Wang, B Zheng, H Zhong, T Sun, H Schellnhuber, P Gentine. Global patterns of daily CO2 emissions reductions in the first year of COVID-19. Nature Geoscience. 2022. [Citations: 77] 
@@ -13,7 +13,7 @@
 - Z Liu, **Z Deng**, SJ Davis, and P Ciais. Monitoring global carbon emissions in 2022. Nature Reviews Earth & Environment. 2023. 
 - Z Liu, **Z Deng**, SJ Davis, and P Ciais. Monitoring global carbon emissions in 2021. Nature Reviews Earth & Environment. 2022. 
 
-## 📄Other Publications
+## 📄 Other Publications
 - C Lu, Y Huang, Y Yu, J Hu, H Mo, Y Li, D Huo, X Song, X Huang, Y Sun, K Liu, S Zhang, K Morrissey, J Hong, **Z Deng**, Z Du, F Creutzig, Z Liu. Health co-benefits of post-COVID-19 low-carbon recovery in Chinese cities. Nature Cities. 2024. 
 - Y Huang, J Ou, **Z Deng**, W Zhou, Y Liang, X Huang. Peak patterns and drivers of city-level daily CO2 emissions in China. Journal of Cleaner Production. 2024. 
 - X Huang, **Z Deng**, F Jiang, M Zhou, X Lin, Zhu Liu, M Peng. Improved Consistency of Satellite XCO2 Retrievals Based on Machine Learning. Geophysical Research Letters. 2024. 
