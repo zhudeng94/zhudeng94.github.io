@@ -1,5 +1,7 @@
 # 💻 WORKING EXPERIENCE
-- *2021.06 - 2021.09*, Alibaba, Hangzhou.
+**Post-doctoral Research Fellow**  
+Department of Geography, The University of Hong Kong  
+Supervised by Prof. Peng Gong
 
 # 📖 Educations
 - *2016.06 - 2022.04*, Ph.D., Tsinghua University, Beijing, China.
