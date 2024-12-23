@@ -1,4 +1,4 @@
-# 👋 HI
+# 👋 Hi
 I am currently a postdoctoral research fellow in the Department of Geography, 
 The University of Hong Kong.  
 I am now working on **near-real-time carbon accounting, greenhouse gas budget reconciliation and sustainability data research**.  
