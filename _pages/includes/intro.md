@@ -6,9 +6,9 @@ I am now working on **near-real-time carbon accounting, greenhouse gas budget re
 If you are seeking any form of academic cooperation, please feel free to email me at zhudeng@hku.hk. We are hiring interns!
 
 # 🔗 HOMEPAGES
-- Personal Pages: https://zhudeng.top
-- Google Scholar: https://scholar.google.com/citations?user=bzZYiBgAAAAJ <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fzhudeng94%2Fzhudeng94.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
-- 🔥 Carbon Monitor: https://carbonmonitor.org
+- Personal Pages: [https://zhudeng.top](https://zhudeng.top)
+- Google Scholar: [https://scholar.google.com/citations?user=bzZYiBgAAAAJ](https://scholar.google.com/citations?user=bzZYiBgAAAAJ) <img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fzhudeng94%2Fzhudeng94.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations">
+- 🔥 Carbon Monitor: [https://carbonmonitor.org](https://carbonmonitor.org)
   
 # 💻 WORKING EXPERIENCE
 - **Post-doctoral Research Fellow**, 2024-present  
