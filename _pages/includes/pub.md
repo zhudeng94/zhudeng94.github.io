@@ -1,5 +1,6 @@
 
 # 📝 Publications 
+
 ## 🎙 Selected Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Earth System Science Data</div><img src='https://essd.copernicus.org/articles/14/1639/2022/essd-14-1639-2022-f03-web.png' alt="sym" width="100%"></div></div>
@@ -7,7 +8,7 @@
 [Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions](https://doi.org/10.5194/essd-14-1639-2022) \\
 **Zhu Deng**, Philippe Ciais, Zitely A. Tzompa-Sosa, Marielle Saunois, Chunjing Qiu, Chang Tan, Taochun Sun, Piyu Ke, Yanan Cui, Katsumasa Tanaka, Xin Lin, Rona L. Thompson, Hanqin Tian, Yuanzhi Yao, Yuanyuan Huang, Ronny Lauerwald, Atul K. Jain, Xiaoming Xu, Ana Bastos, Stephen Sitch, Paul I. Palmer, Thomas Lauvaux, Alexandre d'Aspremont, Clément Giron, Antoine Benoit, Benjamin Poulter, Jinfeng Chang, Ana Maria Roxana Petrescu, Steven J. Davis, Zhu Liu, Giacomo Grassi, Clément Albergel, Francesco N. Tubiello, Lucia Perugini, Wouter Peters, Frédéric Chevallier \\
 **Earth System Science Data**, 2022, 14, 1639–1675 (2022) \\
-[//]: # (<strong><span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span></strong><img src='images/esi-highly-cited-paper.png' width="20px">ESI Highly Cited Paper<img src='images/esi-hot-paper.png' width="20px">ESI Hot Paper)
+(<img src='images/esi-highly-cited-paper.png' width="20px">ESI Highly Cited Paper<img src='images/esi-hot-paper.png' width="20px">ESI Hot Paper)
 </div>
 </div>
 
@@ -47,4 +48,3 @@ Zhu Liu, Philippe Ciais, Zhu Deng, Steven J Davis, Bo Zheng, Yilong Wang, Duo Cu
 </div>
 </div>
 
-[//]: # (* Equal Contribution, # Corresponding Author)
