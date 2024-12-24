@@ -14,7 +14,7 @@ for index, pub in df.iterrows():
     gsid = pub['gsid']
     doi = pub['doi']
     almetric = f"<div class='altmetric-embed' data-badge-type='4' data-doi='{doi}'></div>"
-    citation = f'<img src="https://img.shields.io/endpoint?logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&message={100}">'
+    citation = f'<img src="https://img.shields.io/badge/Citation-300-blue">'
 
     tmp = f"- {author}. [{title}](http://doi.org/{doi}). ***{journal}***. {year}. [<span class='show_paper_citations' data='{gsid}'></span>] {almetric} {citation}  \n"
 
