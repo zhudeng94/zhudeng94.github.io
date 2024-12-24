@@ -1,7 +1,7 @@
 
 # 📚 PUBLICATIONS 
 
-I have published <span class='show_paper_number'></span>
+I have published <span class='show_paper_number'></span>+ papers
 
 ## 🌟 SELECTED PUBLICATIONS
 
