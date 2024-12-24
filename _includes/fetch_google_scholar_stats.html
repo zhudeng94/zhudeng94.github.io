@@ -1,4 +1,4 @@
-<script defer>
+<script>
     $(document).ready(function () {
         {% if site.google_scholar_stats_use_cdn %}
         var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
@@ -15,7 +15,7 @@
                 element.innerHTML = 'Citations: ' + numCitations;
             });
 
-            var totalPaper = Object.keys(data['publications'].length);
+            var totalPaper = Object.keys(data['publications']).length;
             totalPaper = Math.floor(totalPaper / 10) * 10;
             var paperNumElement = document.getElementById('total_paper_number');
             if (paperNumElement) {
