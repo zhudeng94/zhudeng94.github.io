@@ -21,7 +21,7 @@ for index, pub in df.iterrows():
         cite_num = 0
     doi = pub['doi']
     almetric = f'<div class="altmetric-embed" data-badge-type="4" data-doi="{doi}"></div>'
-    citation = f'<img src="https://img.shields.io/badge/Citation-{cite_num}-blue">'
+    citation = f'<img src="https://img.shields.io/badge/citations-{cite_num}-blue">'
 
     tmp = f"- {author}. [{title}](http://doi.org/{doi}). ***{journal}***. {year}. {citation if cite_num>0 else ''} {almetric}   \n"
 
