@@ -19,7 +19,12 @@
             totalPaper = Math.floor(totalPaper / 10) * 10;
             document.getElementById('total_paper_number').innerHTML = totalPaper;
 
-            document.getElementById('h_index').innerHTML = data['hindex'];
+            var hIndexElement = document.getElementById('h_index');
+            if (hIndexElement) {
+                    hIndexElement.innerHTML = data['hindex'];
+                } else {
+                    console.warn("'h_index' element not found!");
+                }
         });
     })
 </script>
