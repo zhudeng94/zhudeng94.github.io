@@ -1,6 +1,8 @@
 
 # 📚 PUBLICATIONS 
 
+I have published <span class='show_paper_number'></span>
+
 ## 🌟 SELECTED PUBLICATIONS
 
 - **Z Deng†**, P Ciais†, ZA Tzompa-Sosa, M Saunois, C Qiu, C Tan, T Sun, P Ke, Y Cui, K Tanaka, X Lin, RL Thompson, H Tian, Y Yao, Y Huang, R Lauerwald, AK Jain, X Xu, A Bastos, S Sitch, PI Palmer, T Lauvaux, A d’Aspremont, C Giron, A Benoit, B Poulter, J Chang, R Petrescu, SJ Davis, Z Liu, G Grassi, C Albergel, and F Chevallier. Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions. ***Earth System Science Data***. 2022. [<span class='show_paper_citations' data='bzZYiBgAAAAJ:BqipwSGYUEgC'></span>]  
