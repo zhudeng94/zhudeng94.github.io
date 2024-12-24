@@ -12,9 +12,10 @@ for index, pub in df.iterrows():
     journal = pub['journal']
     year = pub['date'].year
     gsid = pub['gsid']
-    score = f'<img src="https://badges.altmetric.com/?size=80&amp;score={pub["score"]}&amp;types=mbvrtwfd">'
+    doi = pub['doi']
+    almetric = f"<div class='altmetric-embed' data-badge-type='4' data-doi='{doi}'></div>"
 
-    tmp = f"- {author}. {title}. ***{journal}***. {year}. [<span class='show_paper_citations' data='{gsid}'></span>]  \n"
+    tmp = f"- {author}. [{title}](http://doi.org/{doi}). ***{journal}***. {year}. [<span class='show_paper_citations' data='{gsid}'></span>] {almetric}  \n"
 
     if pub['selected'] == 1:
         selected_pub += tmp
