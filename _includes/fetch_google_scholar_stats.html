@@ -15,9 +15,9 @@
                 element.innerHTML = 'Citations: ' + numCitations;
             });
 
-            var totalPapar = data['publications'].length;
-            totalPapar = Math.floor(totalPapar / 10) * 10;
-            document.getElementById('total_paper_number').innerHTML = totalPapar;
+            var totalPaper = data['publications'].length;
+            totalPaper = Math.floor(totalPaper / 10) * 10;
+            document.getElementById('total_paper_number').innerHTML = totalPaper;
 
             document.getElementById('total_citation').innerHTML = data['citedby'];
             document.getElementById('h_index').innerHTML = data['hindex'];
