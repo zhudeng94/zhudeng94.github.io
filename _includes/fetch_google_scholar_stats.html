@@ -17,14 +17,19 @@
 
             var totalPaper = data['publications'].length;
             totalPaper = Math.floor(totalPaper / 10) * 10;
-            document.getElementById('total_paper_number').innerHTML = totalPaper;
+            var paperNumElement = document.getElementById('total_paper_number');
+            if (paperNumElement) {
+                paperNumElement.innerHTML = totalPaper;
+            } else {
+                console.warn("'total_paper_number' element not found!");
+            }
 
             var hIndexElement = document.getElementById('h_index');
             if (hIndexElement) {
-                    hIndexElement.innerHTML = data['hindex'];
-                } else {
-                    console.warn("'h_index' element not found!");
-                }
+                hIndexElement.innerHTML = data['hindex'];
+            } else {
+                console.warn("'h_index' element not found!");
+            }
         });
     })
 </script>
