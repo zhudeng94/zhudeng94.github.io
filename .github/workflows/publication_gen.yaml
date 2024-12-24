@@ -1,0 +1,32 @@
+name: Generate publications
+
+on:
+  push:
+    branches:
+      - main  # 触发工作流的分支，可根据需要修改
+  workflow_dispatch:  # 手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    # 安装依赖项
+    - name: Install dependencies
+      run: |
+        sudo apt-get install python3-setuptools
+        pip install pandas lxml
+
+    # 执行脚本
+    - name: Run publication generator script
+      run: python publication_generator/pubGen.py
+
+    # 提交并推送更新的文件
+    - name: Commit and push changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git add _pages/includes/pub_list.md
+        git commit -m "Update publication list"
+        git push
