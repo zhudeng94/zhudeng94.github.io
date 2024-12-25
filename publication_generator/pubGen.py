@@ -42,7 +42,7 @@ for index, pub in df.iterrows():
 
     if y!=year:
         y = year
-        all_pub += f"\n### {y}   \n"
+        all_pub += f"\n### 🌳 {y}   \n"
 
     all_pub += tmp
 
