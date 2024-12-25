@@ -23,10 +23,10 @@ for index, pub in df.iterrows():
         cite_num = 0
     doi = pub['doi']
     # altmetric = ''
-    altmetric = f'<div><div class="altmetric-embed" data-badge-type="4" data-doi="{doi}"></div></div>'
+    altmetric = f'<div class="altmetric-embed" data-badge-type="4" data-doi="{doi}"></div>'
     citation = f'<img src="https://img.shields.io/badge/citations-{cite_num}-white">'
 
-    tmp = f"- {author}. [{title}](http://doi.org/{doi}). ***{journal}***. {year}. {citation if cite_num>0 else ''} {altmetric}   \n"
+    tmp = f"- {author}. [{title}](http://doi.org/{doi}). ***{journal}***. {year}. <div>{citation if cite_num>0 else ''}{altmetric}</div>   \n"
 
     if pub['selected'] == 1:
         selected_pub += tmp
