@@ -15,7 +15,7 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install python3-setuptools
-        pip install pandas lxml
+        pip install pandas openpyxl
 
     # 执行脚本
     - name: Run publication generator script
