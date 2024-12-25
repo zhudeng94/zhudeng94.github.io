@@ -18,7 +18,7 @@ If you are seeking any form of academic cooperation, please feel free to email m
 Department of Geography, The University of Hong Kong  
 Supervised by *[Prof. Peng Gong](https://www.geog.hku.hk/p-gong)*
 
-- **Senior Algorithm Engineer**, 2022-2024  
+- **Research Assistant / Senior Algorithm Engineer**, 2022-2024  
 Alibaba Innovative Research: Alibaba Cloud & Tsinghua University
   
   
