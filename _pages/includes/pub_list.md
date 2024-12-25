@@ -1,5 +1,5 @@
 
-### 2024   
+### 🌳 2024   
 - Chenxi Lu, Yingjian Huang, Ying Yu, Jiawei Hu, Huibin Mo, Yun Li, Da Huo, Xuanren Song, Xiaoting Huang, Yun Sun, Kai Liu, Shaohui Zhang, Karyn Morrissey, Jinpyo Hong, **Zhu Deng**, Zhuanjia Du, Felix Creutzig, Zhu Liu. <a href='http://doi.org/10.1038/s44284-024-00115-8'>Health co-benefits of post-COVID-19 low-carbon recovery in Chinese cities</a>. ***Nature Cities***. 2024.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:3s1wT3WcHBgC'><img src='https://img.shields.io/badge/Citations-0-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s44284-024-00115-8'><img src='https://img.shields.io/badge/🔥Altmetric-5-red'></a></div>   
 - Yingjian Huang, Jinpei Ou, **Zhu Deng**, Wenwen Zhou, Yuchen Liang, Xiaolei Huang. <a href='http://doi.org/10.1016/j.jclepro.2024.143206'>Peak patterns and drivers of city-level daily CO2 emissions in China</a>. ***Journal of Cleaner Production***. 2024.   
@@ -17,7 +17,7 @@
 - Kushal Tibrewal, Philippe Ciais, Marielle Saunois, Adrien Martinez, Xin Lin, Joel Thanwerdas, **Zhu Deng**, Frederic Chevallier, Clément Giron, Clément Albergel, Katsumasa Tanaka, Prabir Patra, Aki Tsuruta, Bo Zheng, Dmitry Belikov, Yosuke Niwa, Rajesh Janardanan, Shamil Maksyutov, Arjo Segers, Zitely A Tzompa-Sosa, Philppe Bousquet, Jean Sciare. <a href='http://doi.org/10.1038/s43247-023-01190-w'>Assessment of methane emissions from oil, gas and coal sectors across inventories and atmospheric inversions</a>. ***Communications Earth & Environment***. 2024.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:J_g5lzvAfSwC'><img src='https://img.shields.io/badge/Citations-13-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s43247-023-01190-w'><img src='https://img.shields.io/badge/🔥Altmetric-54-red'></a></div>   
 
-### 2023   
+### 🌳 2023   
 - Hui Yang, Philippe Ciais, Frédéric Frappart, Xiaojun Li, Martin Brandt, Rasmus Fensholt, Lei Fan, Sassan Saatchi, Simon Besnard, **Zhu Deng**, Simon Bowring, Jean-Pierre Wigneron. <a href='http://doi.org/10.1038/s41561-023-01274-4'>Global increase in biomass carbon stock dominated by growth of northern young forests over past decade</a>. ***Nature Geoscience***. 2023.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:YFjsv_pBGBYC'><img src='https://img.shields.io/badge/Citations-72-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s41561-023-01274-4'><img src='https://img.shields.io/badge/🔥Altmetric-323-red'></a></div>   
 - Xiaojuan Lin, Ronald Van Der A, Jos De Laat, Henk Eskes, Frédéric Chevallier, Philippe Ciais, **Zhu Deng**, Yuanhao Geng, Xuanren Song, Xiliang Ni, Da Huo, Xinyu Dou, Zhu Liu. <a href='http://doi.org/10.5194/acp-23-6599-2023'>Monitoring and quantifying CO2 emissions of isolated power plants from space</a>. ***Atmospheric Chemistry and Physics***. 2023.   
@@ -33,7 +33,7 @@
 - Xinyu Dou, Jinpyo Hong, Philippe Ciais, Frédéric Chevallier, Feifan Yan, Ying Yu, Yifan Hu, Da Huo, Yun Sun, Yilong Wang, Steven J Davis, Monica Crippa, Greet Janssens-Maenhout, Diego Guizzardi, Efisio Solazzo, Xiaojuan Lin, Xuanren Song, Biqing Zhu, Duo Cui, Piyu Ke, Hengqi Wang, Wenwen Zhou, Xia Huang, **Zhu Deng**, Zhu Liu. <a href='http://doi.org/10.1038/s41597-023-01963-0'>Near-real-time global gridded daily CO2 emissions 2021</a>. ***Scientific Data***. 2023.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:M3ejUd6NZC8C'><img src='https://img.shields.io/badge/Citations-23-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s41597-023-01963-0'><img src='https://img.shields.io/badge/🔥Altmetric-14-red'></a></div>   
 
-### 2022   
+### 🌳 2022   
 - Da Huo, Kai Liu, Jianwu Liu, Yingjian Huang, Taochun Sun, Yun Sun, Caomingzhe Si, Jinjie Liu, Xiaoting Huang, Jian Qiu, Haijin Wang, Duo Cui, Biqing Zhu, **Zhu Deng**, Piyu Ke, Yuli Shan, Olivier Boucher, Grégoire Dannet, Gaoqi Liang, Junhua Zhao, Lei Chen, Qian Zhang, Philippe Ciais, Wenwen Zhou, Zhu Liu. <a href='http://doi.org/10.1038/s41597-022-01796-3'>Near-real-time daily estimates of fossil fuel CO2 emissions from major high-emission cities in China</a>. ***Scientific Data***. 2022.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:4TOpqqG69KYC'><img src='https://img.shields.io/badge/Citations-16-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s41597-022-01796-3'><img src='https://img.shields.io/badge/🔥Altmetric-7-red'></a></div>   
 - Zhu Liu, **Zhu Deng**, Xiaoting Huang. <a href='http://doi.org/10.1016/j.xinn.2022.100346'>A carbon-monitoring strategy through near-real–time data and space technology</a>. ***The Innovation***. 2022.   
@@ -55,7 +55,7 @@
 - RB Jackson, P Friedlingstein, C Le Quéré, S Abernethy, RM Andrew, JG Canadell, Philippe Ciais, SJ Davis, **Zhu Deng**, Zhu Liu, Jan Ivar Korsbakken, Glen Philip Peters. <a href='http://doi.org/10.1088/1748-9326/ac55b6'>Global fossil carbon emissions rebound near pre-COVID-19 levels</a>. ***Environmental Research Letters***. 2022.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:isC4tDSrTZIC'><img src='https://img.shields.io/badge/Citations-84-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1088/1748-9326/ac55b6'><img src='https://img.shields.io/badge/🔥Altmetric-193-red'></a></div>   
 
-### 2021   
+### 🌳 2021   
 - Philippe Ciais, François‐Marie Bréon, Stijn Dellaert, Yilong Wang, Katsumasa Tanaka, Léna Gurriaran, Yann Françoise, Steven J Davis, Chaopeng Hong, Josep Penuelas, Ivan Janssens, Michael Obersteiner, **Zhu Deng**, Zhu Liu. <a href='http://doi.org/10.1029/2021ef002250'>Impact of Lockdowns and Winter Temperatures on Natural Gas Consumption in Europe</a>. ***Earth's Future***. 2021.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:KlAtU1dfN6UC'><img src='https://img.shields.io/badge/Citations-16-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1029/2021ef002250'><img src='https://img.shields.io/badge/🔥Altmetric-8-red'></a></div>   
 - Zhu Liu, **Zhu Deng**, Gang He, Hailin Wang, Xian Zhang, Jiang Lin, Ye Qi, Xi Liang. <a href='http://doi.org/10.1038/s43017-021-00244-x'>Challenges and opportunities for carbon neutrality in China</a>. ***Nature Reviews Earth & Environment***. 2021.   
@@ -69,7 +69,7 @@
 - Xinyu Dou, Cuijuan Liao, Hengqi Wang, Ying Huang, Ying Tu, Xiaomeng Huang, Yiran Peng, Biqing Zhu, Jianguang Tan, **Zhu Deng**, Nana Wu, Taochun Sun, Piyu Ke, Zhu Liu. <a href='http://doi.org/10.1016/j.adapen.2021.100017'>Estimates of daily ground-level NO2 concentrations in China based on Random Forest model integrated K-means</a>. ***Advances in Applied Energy***. 2021.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:TFP_iSt0sucC'><img src='https://img.shields.io/badge/Citations-27-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1016/j.adapen.2021.100017'><img src='https://img.shields.io/badge/🔥Altmetric-2-red'></a></div>   
 
-### 2020   
+### 🌳 2020   
 - Zhu Liu†, Philippe Ciais†, **Zhu Deng**†, Steven J Davis, Bo Zheng, Yilong Wang, Duo Cui, Biqing Zhu, Xinyu Dou, Piyu Ke, Taochun Sun, Rui Guo, Haiwang Zhong, Olivier Boucher, François-Marie Bréon, Chenxi Lu, Runtao Guo, Jinjun Xue, Eulalie Boucher, Katsumasa Tanaka, Frédéric Chevallier. <a href='http://doi.org/10.1038/s41597-020-00708-7'>Carbon Monitor, a near-real-time daily dataset of global CO2 emission from fossil fuel and cement production</a>. ***Scientific Data***. 2020.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:Y0pCki6q_DkC'><img src='https://img.shields.io/badge/Citations-206-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s41597-020-00708-7'><img src='https://img.shields.io/badge/🔥Altmetric-40-red'></a></div>   
 - Frédéric Chevallier, Bo Zheng, Grégoire Broquet, Philippe Ciais, Zhu Liu, Steven J Davis, **Zhu Deng**, Yilong Wang, François‐Marie Bréon, Christopher W O'Dell. <a href='http://doi.org/10.1029/2020gl090244'>Local anomalies in the column‐averaged dry air mole fractions of carbon dioxide across the globe during the first months of the coronavirus recession</a>. ***Geophysical Research Letters***. 2020.   
@@ -81,7 +81,7 @@
 - Zhu Liu, Jing Meng, **Zhu Deng**, Ping Lu, Dabo Guan, Qiang Zhang, Kebin He, Peng Gong. <a href='http://doi.org/10.1007/s11430-019-9635-x'>Embodied carbon emissions in China-US trade</a>. ***Science China Earth Sciences***. 2020.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:hMod-77fHWUC'><img src='https://img.shields.io/badge/Citations-46-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1007/s11430-019-9635-x'><img src='https://img.shields.io/badge/🔥Altmetric-23-red'></a></div>   
 
-### 2019   
+### 🌳 2019   
 - Duo Cui, **Zhu Deng**, Zhu Liu. <a href='http://doi.org/10.1016/j.apenergy.2019.113537'>China’s non-fossil fuel CO2 emissions from industrial processes</a>. ***Applied Energy***. 2019.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:UeHWp8X0CEIC'><img src='https://img.shields.io/badge/Citations-67-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1016/j.apenergy.2019.113537'><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
 - Chaoji Cao, XueQin Cui, Wenjia Cai, Can Wang, Lu Xing, Ning Zhang, Shudong Shen, Yuqi Bai, **Zhu Deng**. <a href='http://doi.org/10.1016/j.apenergy.2019.113498'>Incorporating health co-benefits into regional carbon emission reduction policy making: A case study of China’s power sector</a>. ***Applied Energy***. 2019.   
@@ -89,6 +89,6 @@
 - Baolei Lyu, Yongtao Hu, Wenxian Zhang, Yunsong Du, Bin Luo, Xiaoling Sun, Zhe Sun, **Zhu Deng**, Xiaojiang Wang, Jun Liu, Xuesong Wang, Armistead G. Russell. <a href='http://doi.org/10.1021/acs.est.9b01117'>Fusion method combining ground-level observations with chemical transport model predictions using an ensemble deep learning framework: application in China to estimate spatiotemporally-resolved PM2.5 exposure fields in 2014–2017</a>. ***Environmental Science & Technology***. 2019.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:2osOgNQ5qMEC'><img src='https://img.shields.io/badge/Citations-55-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1021/acs.est.9b01117'><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
 
-### 2016   
+### 🌳 2016   
 - **Zhu Deng**, Yuqi Bai. <a href='http://doi.org/10.1109/agro-geoinformatics.2016.7577677'>Floating car data processing model based on Hadoop-GIS tools</a>. ***2016 Fifth International Conference on Agro-Geoinformatics (Agro-Geoinformatics)***. 2016.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:u5HHmVD_uO8C'><img src='https://img.shields.io/badge/Citations-4-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1109/agro-geoinformatics.2016.7577677'><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
