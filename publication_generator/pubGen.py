@@ -31,7 +31,7 @@ for index, pub in df.iterrows():
             altmetric_js = res.json()
             score = round(altmetric_js['score'])
 
-    tmp = (f"- {author}. <a href='http://doi.org/{doi}'>{title}</a> ***{journal}***. {year}.   \n   "
+    tmp = (f"- {author}. <a href='http://doi.org/{doi}'>{title}</a>. ***{journal}***. {year}.   \n   "
            f"<div> "
            f"<a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view={gsid}'><img src='https://img.shields.io/badge/citation-{cite_num}-white?logo=googlescholar'></a> "
            f"<a href='https://www.altmetric.com/details.php?doi={doi}'><img src='https://img.shields.io/badge/🔥Altmetric-{score}-red'></a>"
