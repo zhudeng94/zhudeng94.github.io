@@ -18,7 +18,7 @@ I have more than <span id='total_paper_number'></span>+ publications, with an h-
 ## 🌟 SELECTED PUBLICATIONS  
 {% include_relative includes/pub_selected.md %}
 
-[Full list of publications](#-all-publications-)
+[Full list of publications](#-all-publications)
 
 {% include_relative includes/news.md %}
 
