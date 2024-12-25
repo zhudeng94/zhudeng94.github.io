@@ -33,4 +33,4 @@ jobs:
         git add _pages/includes/pub_list.md
         git add _pages/includes/pub_selected.md
         git commit -m "Update publication list"
-        git push
+        git push origin main --force
