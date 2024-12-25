@@ -10,6 +10,7 @@ selected_pub = ""
 all_pub = ""
 
 y = 0
+i = 1
 
 for index, pub in df.iterrows():
     author = pub['author'].replace('Zhu Deng', '**Zhu Deng**')
@@ -32,12 +33,13 @@ for index, pub in df.iterrows():
             score = round(altmetric_js['score'])
 
     if pub['selected'] == 1:
-        tmp = (f"- {','.join(author.split(',')[:3])}, et al. <a href='http://doi.org/{doi}'>{title}</a>. ***{journal}***. {year}."
+        tmp = (f"{i}. {','.join(author.split(',')[:3])}, et al. <a href='http://doi.org/{doi}'>{title}</a>. ***{journal}***. {year}."
                f"<div> "
                f"<a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view={gsid}'><img src='https://img.shields.io/badge/Citations-{cite_num}-white?logo=googlescholar'></a> "
                f"<a href='https://www.altmetric.com/details.php?doi={doi}'><img src='https://img.shields.io/badge/🔥Altmetric-{score}-red'></a>"
                f"</div>   \n")
         selected_pub += tmp
+        i += 1
 
     if y!=year:
         y = year
