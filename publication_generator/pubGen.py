@@ -32,11 +32,8 @@ for index, pub in df.iterrows():
     all_pub += tmp
 
 
-md = f"""
-{selected_pub}
-"""
 with open('_pages/includes/pub_selected.md', 'w') as f:
-    f.write(md)
+    f.write(selected_pub)
 
 md = f"""
 # 📄 All Publications  
