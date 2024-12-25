@@ -7,8 +7,8 @@ main:
     url: "/#-selected-publications"
 
   - title: "Experience"
-    url: "/#-working-experience"
+    url: "/#-experience"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "News"
+    url: "/#-news"
 
