@@ -27,9 +27,8 @@ jobs:
     # 提交并推送更新的文件
     - name: Commit and push changes
       run: |
-        git init
-        git config --local user.name "${GITHUB_ACTOR}"
-        export remote_repo="https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+        git config --global user.name "Zhu Deng"
+        git config --global user.email "zhudeng94@gmail.com"
         git add sitemap.xml
         git add _pages/includes/pub_list.md
         git add _pages/includes/pub_selected.md
