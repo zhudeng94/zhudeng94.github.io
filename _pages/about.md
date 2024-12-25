@@ -31,10 +31,9 @@ If you are seeking any form of academic cooperation, please feel free to email m
 
 [Full list of publications](#-all-publications)
 
-***
 # 🌍 EXPERIENCE
 {% include_relative includes/experiences.md %}
-***
+
 # 📚 PUBLICATIONS  
 {% include_relative includes/pub_list.md %}
 
