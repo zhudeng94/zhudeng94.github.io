@@ -3,11 +3,11 @@ main:
   - title: "About Me"
     url: "/#-hi-there"
 
+  - title: "Publications"
+    url: "/#-selected-publications"
+
   - title: "Experience"
     url: "/#-working-experience"
-
-  - title: "Publications"
-    url: "/#-publications"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
