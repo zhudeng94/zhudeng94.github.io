@@ -32,8 +32,8 @@ for index, pub in df.iterrows():
         selected_pub += tmp
 
     if y!=year:
-        year = y
-        all_pub += f"## {year}   "
+        y = year
+        all_pub += f"## {y}   \n"
 
     all_pub += tmp
 
