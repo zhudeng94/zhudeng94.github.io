@@ -9,6 +9,8 @@ js = requests.get('https://cdn.jsdelivr.net/gh/zhudeng94/zhudeng94.github.io@goo
 selected_pub = ""
 all_pub = ""
 
+y = 0
+
 for index, pub in df.iterrows():
     author = pub['author'].replace('Zhu Deng', '**Zhu Deng**')
     title = pub['title']
@@ -28,6 +30,10 @@ for index, pub in df.iterrows():
 
     if pub['selected'] == 1:
         selected_pub += tmp
+
+    if y!=year:
+        year = y
+        all_pub += f"## {year}   "
 
     all_pub += tmp
 
