@@ -19,7 +19,7 @@ I have more than <span id='total_paper_number'></span>+ publications, with an h-
 
 If you are seeking any form of academic cooperation, please feel free to email me at zhudeng@hku.hk. We are hiring interns!
 
-[My CV](../../files/Zhu%20Deng_CV.pdf)
+[My CV](../../files/Zhu%20Deng_CV_2412.pdf)
 
 ### 🔗 HOMEPAGES
 - Personal Pages: [https://zhudeng.top](https://zhudeng.top)
