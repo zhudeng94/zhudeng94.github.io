@@ -17,16 +17,25 @@ for index, pub in df.iterrows():
     journal = pub['journal']
     year = pub['date'].year
     gsid = pub['gsid']
+    doi = pub['doi']
+
+    cite_num = 0
+    score = 0
+
     if gsid in js['publications'].keys():
         cite_num = js['publications'][gsid]['num_citations']
-    else:
-        cite_num = 0
-    doi = pub['doi']
-    # altmetric = ''
-    altmetric = f'<div class="altmetric-embed" data-badge-type="4" data-doi="{doi}"></div>'
-    citation = f'<img src="https://img.shields.io/badge/citations-{cite_num}-white">'
 
-    tmp = f"- {author}. [{title}](http://doi.org/{doi}). ***{journal}***. {year}. <div>{citation if cite_num>0 else ''}{altmetric}</div>   \n"
+    if doi != "":
+        res = requests.get(f'https://api.altmetric.com/v1/doi/{doi}')
+        if res.status_code == 200:
+            altmetric_js = res.json()
+            score = round(altmetric_js['score'])
+
+    tmp = (f"- {author}. <u>{title}</u>.<a href='http://doi.org/{doi}'>🔗</a> ***{journal}***. {year}.   \n   "
+           f"<div> "
+           f"<a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view={gsid}'><img src='https://img.shields.io/badge/citation-{cite_num}-white?logo=googlescholar'></a> "
+           f"<a href='https://www.altmetric.com/details.php?doi={doi}'><img src='https://img.shields.io/badge/🔥Altmetric-{score}-red'></a>"
+           f"</div>   \n")
 
     if pub['selected'] == 1:
         selected_pub += tmp
