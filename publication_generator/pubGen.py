@@ -9,8 +9,8 @@ def read_google_sheet(sheet_name):
     credentials = {
       "type": "service_account",
       "project_id": "ceremonial-hold-366807",
-      "private_key_id": os.environ['GS_PRIVATE_KEY_ID'],
-      "private_key": os.environ['GS_PRIVATE_KEY'],
+      "private_key_id": str(os.environ['GS_PRIVATE_KEY_ID']),
+      "private_key": str(os.environ['GS_PRIVATE_KEY']),
       "client_email": "296654983139-compute@developer.gserviceaccount.com",
       "client_id": "115750140284121630235",
       "auth_uri": "https://accounts.google.com/o/oauth2/auth",
@@ -19,6 +19,7 @@ def read_google_sheet(sheet_name):
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/296654983139-compute%40developer.gserviceaccount.com",
       "universe_domain": "googleapis.com"
     }
+    print(credentials)
 
     gc = gspread.service_account_from_dict(credentials)
     # 打开 Google 表格
