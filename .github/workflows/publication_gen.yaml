@@ -18,11 +18,15 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install python3-setuptools
-        pip install pandas openpyxl
+        pip install pandas openpyxl gspread
 
     # 执行脚本
     - name: Run publication generator script
-      run: python publication_generator/pubGen.py
+      run: | 
+        python publication_generator/pubGen.py
+      env:
+        GS_PRIVATE_KEY_ID: ${{ secrets.GS_PRIVATE_KEY_ID }}
+        GS_PRIVATE_KEY: ${{ secrets.GS_PRIVATE_KEY }}
 
     # 提交并推送更新的文件
     - name: Commit and push changes

@@ -1,7 +1,36 @@
 import pandas as pd
 import requests
+import gspread
+import os
 
-df = pd.read_excel('files/publications.xlsx', parse_dates=['date'])
+
+# 从 Google Spreadsheet 读取数据
+def read_google_sheet(sheet_name):
+    credentials = {
+      "type": "service_account",
+      "project_id": "ceremonial-hold-366807",
+      "private_key_id": os.environ['GS_PRIVATE_KEY_ID'],
+      "private_key": os.environ['GS_PRIVATE_KEY'],
+      "client_email": "296654983139-compute@developer.gserviceaccount.com",
+      "client_id": "115750140284121630235",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/296654983139-compute%40developer.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+
+    gc = gspread.service_account_from_dict(credentials)
+    # 打开 Google 表格
+    sheet = gc.open_by_url(sheet_name).sheet1
+    # 获取所有数据并转换为 Pandas DataFrame
+    data = sheet.get_all_records()
+    df = pd.DataFrame(data)
+
+    return df
+
+df = read_google_sheet("https://docs.google.com/spreadsheets/d/1WK8TH28_nhs6fEpVGv2RKQt7Zm-p1OpHthG282B8WDc")
+df.date = pd.to_datetime(df.date)
 df.sort_values('date', ascending=False,  inplace=True)
 
 js = requests.get('https://cdn.jsdelivr.net/gh/zhudeng94/zhudeng94.github.io@google-scholar-stats/gs_data.json', verify=False).json()
