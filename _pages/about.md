@@ -24,12 +24,15 @@ If you are seeking any form of academic cooperation, please feel free to [email 
 - 📄 [Curriculum Vitae](../../files/Zhu%20Deng_CV_2412.pdf)
 - Personal Pages: [https://zhudeng.top](https://zhudeng.top)
 - Google Scholar: [https://scholar.google.com/citations?user=bzZYiBgAAAAJ](https://scholar.google.com/citations?user=bzZYiBgAAAAJ)
-- 🔥 Carbon Monitor: [https://carbonmonitor.org](https://carbonmonitor.org)
 
 ### 🌟 SELECTED PUBLICATIONS  
 {% include_relative includes/pub_selected.md %}
 
 [Full list of publications](#-publications)
+
+### 🔥 My Projects
+- 📈 **Carbon Monitor** - Global Near-real-time Daily CO2 Emission Monitoring: [https://carbonmonitor.org](https://carbonmonitor.org)
+- 🗺 **GRACED** - Global Daily CO2 Emission Map: [https://carbonmonitor-graced.com/](https://carbonmonitor-graced.com/)
 
 # 🌍 EXPERIENCE
 {% include_relative includes/experiences.md %}
