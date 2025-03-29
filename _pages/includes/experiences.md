@@ -13,9 +13,9 @@ Supervised by *[Prof. Zhu Liu](https://scholar.harvard.edu/zhu/home)* & *[Prof. 
 School of Geography and Planning, Sun Yat-sen University, Guangzhou, China
 
 ### 🎖 HONORS AND AWARDS
-- RGC Postdoctoral Fellowship Scheme [2024/25](https://www.ugc.edu.hk/eng/rgc/funding_opport/pdfs/index.html), 2024
+- RGC Postdoctoral Fellowship Scheme 2024/25 (港府博士后奖学金计划, HKD1,260,000), [2024](https://www.ugc.edu.hk/doc/eng/rgc/pdfs/PDFS_awardees2425.pdf)
 - Outstanding graduates of Beijing (北京市优秀毕业生, Top 5%), 2022
-- Jiang Nanxiang Scholarship (蒋南翔奖学金, Top 1%), 2021
+- Jiang Nanxiang Scholarship (蒋南翔奖学金, Top 1%), [2021](https://www.tsinghua.org.cn/__local/2/74/14/E84F843C50DDD57A4F232042A94_B6BAC347_C1EBE.pdf)
 - National Scholarship (国家奖学金, Top 1%), 2020
 
 ### 💬 INVITED TALKS
