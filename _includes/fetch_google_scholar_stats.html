@@ -15,8 +15,9 @@
                 element.innerHTML = 'Citations: ' + numCitations;
             });
 
-            var totalPaper = Object.keys(data['publications']).length;
-            totalPaper = Math.floor(totalPaper / 10) * 10;
+            // var totalPaper = Object.keys(data['publications']).length;
+            // totalPaper = Math.floor(totalPaper / 10) * 10;
+            var totalPaper = Object.keys(data['total_paper_number'])
             var paperNumElement = document.getElementById('total_paper_number');
             if (paperNumElement) {
                 paperNumElement.innerHTML = totalPaper;
