@@ -13,6 +13,8 @@ jobs:
     - name: Install Reqs
       run: |
         sudo apt-get install python3-setuptools
+        pip install pandas openpyxl gspread
+
     - name: Run
       run: |
         cd ./google_scholar_crawler
