@@ -21,7 +21,7 @@ If you are seeking any form of academic cooperation, please feel free to [email 
 
 
 ### 🔗 HOMEPAGES
-- 📄 [Curriculum Vitae](../../files/Zhu%20Deng_CV_2412.pdf)
+- 📄 [Curriculum Vitae](../../files/Zhu%20Deng_CV_2506.pdf)
 - Personal Pages: [https://zhudeng.top](https://zhudeng.top)
 - Google Scholar: [https://scholar.google.com/citations?user=bzZYiBgAAAAJ](https://scholar.google.com/citations?user=bzZYiBgAAAAJ)
 
