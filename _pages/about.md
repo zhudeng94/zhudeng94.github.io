@@ -19,6 +19,10 @@ I have published <span id='total_paper_number'></span> papers, with an h-index o
 
 If you are seeking any form of academic cooperation, please feel free to [email me](mailto:zhudeng@hku.hk). We are hiring interns!
 
+### 🎈 NEWS
+Carbon Monitor release the ***Global Near-real-time Daily CO2 Report 2025***.
+Global CO2 emissions continue to rise in 2025 by 0.6%, with a 1.2% decline in China.
+Click [here](https://zhudeng.top/files/COP_CM_2025_report.pdf) to access the full report.
 
 ### 🔗 HOMEPAGES
 - 📄 [Curriculum Vitae](../../files/Zhu%20Deng_CV_2506.pdf)
