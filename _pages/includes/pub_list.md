@@ -1,5 +1,7 @@
 
 ### 🌳 2025   
+- Liting Hu, Xiaoyi Hu, Fei Jiang, Wei He, **Zhu Deng**, Shuangxi Fang, Xuekun Fang. <a href='http://doi.org/10.3390/rs17223720'>Analysis of Regional Surface CO2 Fluxes Using the MEGA Satellite Data Assimilation System</a>. ***Remote Sensing***. 2025.   
+   <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:_xSYboBqXhAC'><img src='https://img.shields.io/badge/Citations-0-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.3390/rs17223720'><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
 - Duo Cui, Siyao Yang, Xuanren Song, Xiaoting Huang, Cuncun Duan, Mingrui Ji, Zhongyan Li, Siqi Yu, **Zhu Deng**, Piyu Ke, Xinyu Dou, Taochun Sun, Zhu Liu. <a href='http://doi.org/10.1038/s41597-025-05107-4'>Monthly methane emissions in Chinese mainland provinces from 2013–2022</a>. ***Scientific Data***. 2025.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view=bzZYiBgAAAAJ:bFI3QPDXJZMC'><img src='https://img.shields.io/badge/Citations-1-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.1038/s41597-025-05107-4'><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
 - **Zhu Deng**, Biqing Zhu, Steven J Davis, Philippe Ciais, Dabo Guan, Peng Gong, Zhu Liu. <a href='http://doi.org/10.1038/s43017-025-00658-x'>Global carbon emissions and decarbonization in 2024</a>. ***Nature Reviews Earth & Environment***. 2025.   
