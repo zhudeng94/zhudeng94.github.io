@@ -106,3 +106,7 @@
 ### 🌳 nan   
 - Jun Cai, Yanpeng Wu, Hengcong Liu, **Zhu Deng**, Lan Yi, Liuhe Lai, Anna Funk, Marco Ajelli, Hongjie Yu. <a href='http://doi.org/'>China's Post-Zero-COVID Omicron Wave: A Bayesian Analysis</a>. ***Proceedings of the National Academy of Sciences***. nan.   
    <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view='><img src='https://img.shields.io/badge/Citations-0-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi='><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
+
+### 🌳 nan   
+- **Zhu Deng**, Philippe Ciais, Steve J. Davis, Zhu Liu. <a href='http://doi.org/10.26599/CS.2025.9510006'>Projection of global daily CO2 emission in 2025</a>. ***Carbonsphere***. nan.   
+   <div> <a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view='><img src='https://img.shields.io/badge/Citations-0-white?logo=googlescholar'></a> <a href='https://www.altmetric.com/details.php?doi=10.26599/CS.2025.9510006'><img src='https://img.shields.io/badge/🔥Altmetric-0-red'></a></div>   
