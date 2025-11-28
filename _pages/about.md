@@ -25,7 +25,7 @@ Global CO2 emissions continue to rise in 2025 by 0.6%, with a 1.2% decline in Ch
 Click [here](https://zhudeng.top/files/COP_CM_2025_report.pdf) to access the full report   
    
 ### 🔗 HOMEPAGES
-- 📄 [Curriculum Vitae](../../files/Zhu%20Deng_CV_2506.pdf)
+- 📄 [Curriculum Vitae](../../files/Zhu%20Deng_CV_2511.pdf)
 - Personal Pages: [https://zhudeng.top](https://zhudeng.top)
 - Google Scholar: [https://scholar.google.com/citations?user=bzZYiBgAAAAJ](https://scholar.google.com/citations?user=bzZYiBgAAAAJ)
 
