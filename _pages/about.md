@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
+<script type='text/javascript' src='https://embed.altmetric.com/assets/embed.js'></script>
 <span class='anchor' id='about-me'></span>
 
 # 👋 Hi there
