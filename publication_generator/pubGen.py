@@ -65,7 +65,7 @@ for index, pub in df.iterrows():
     if pub['selected'] == 1:
         tmp = (f"{i}. {','.join(author.split(',')[:3])}, et al. <a href='http://doi.org/{doi}'>{title}</a>. ***{journal}***. {year}."
                f"<a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view={gsid}'><img src='https://img.shields.io/badge/Citations-{cite_num}-white?logo=googlescholar'></a> "
-               f"<a href='https://www.altmetric.com/details.php?doi={doi}'><img src='https://img.shields.io/badge/🔥Altmetric-{score}-red'></a>"
+               f"<a href='https://www.altmetric.com/details.php?doi={doi}'><div class='altmetric-embed' data-badge-type='4' data-doi='{doi}'></div></a>"
                f"  \n")
         selected_pub += tmp
         i += 1
