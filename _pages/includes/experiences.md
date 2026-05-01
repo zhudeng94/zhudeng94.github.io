@@ -1,9 +1,11 @@
+![journey](journey.png)
+
 ### 💼 WORKING EXPERIENCE
 - **Post-doctoral Research Fellow**, 2024-present  
-Department of Geography, The University of Hong Kong  
+Department of Geography, Institute for Climate and Carbon Neutrality, The University of Hong Kong, Hong Kong SAR, China  
 Supervised by *[Prof. Peng Gong](https://www.geog.hku.hk/p-gong)*
-- **Research Assistant / Senior Algorithm Engineer**, 2022-2024  
-Alibaba Innovative Research: Alibaba Cloud & Tsinghua University
+- **Senior Algorithm Engineer**, Energy Cloud, 2022-2024  
+Alibaba Cloud, Hangzhou, China  
 
 ### 🎓 EDUCATIONS
 - **Ph.D.**, Ecology, 2016-2022  
