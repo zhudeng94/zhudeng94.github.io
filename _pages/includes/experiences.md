@@ -1,4 +1,10 @@
-![journey](journey.png)
+<figure>
+  <picture>
+    <source srcset="/images/journey.webp" type="image/webp">
+    <img src="/images/journey.png" alt="Career journey diagram" loading="lazy" decoding="async">
+  </picture>
+  <figcaption>注：上图由 GPT 自动生成。</figcaption>
+</figure>
 
 ### 💼 WORKING EXPERIENCE
 - **Post-doctoral Research Fellow**, 2024-present  
