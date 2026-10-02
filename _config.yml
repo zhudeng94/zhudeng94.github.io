@@ -28,7 +28,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=bzZYiBgAAAAJ"
-  email            : "zhudeng94@gmail.com"
+  email            : "zhudeng@hku.hk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -66,6 +66,8 @@ include:
   - files
 exclude:
   - docs
+  - scripts
+  - review
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
