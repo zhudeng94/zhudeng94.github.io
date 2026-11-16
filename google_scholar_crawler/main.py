@@ -28,7 +28,6 @@ def read_google_sheet(sheet_name):
       "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/296654983139-compute%40developer.gserviceaccount.com",
       "universe_domain": "googleapis.com"
     }
-    print(credentials)
 
     gc = gspread.service_account_from_dict(credentials)
     # 打开 Google 表格
