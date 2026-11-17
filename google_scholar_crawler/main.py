@@ -5,10 +5,14 @@ from datetime import datetime
 import os
 import pandas as pd
 import gspread
+from fetch_guard import scholar_fetch_guard
 
 # author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
-author: dict = scholarly.search_author_id('bzZYiBgAAAAJ')
-scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
+scholarly.set_retries(1)
+scholarly.set_timeout(15)
+with scholar_fetch_guard():
+    author: dict = scholarly.search_author_id('bzZYiBgAAAAJ')
+    scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
 name = author['name']
 author['updated'] = str(datetime.now())
 author['publications'] = {v['author_pub_id']:v for v in author['publications']}
