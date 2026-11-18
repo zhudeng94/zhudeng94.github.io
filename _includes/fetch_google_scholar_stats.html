@@ -1,37 +1,15 @@
+<!-- Legacy include filename retained; statistics now come exclusively from OpenAlex. -->
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@refs/heads/'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            // var totalCitation = data['citedby']
-            // document.getElementById('total_cit').innerHTML = totalCitation
-            var citationEles = document.getElementsByClassName('show_paper_citations');
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data');
-                var numCitations = data['publications'][paperId]['num_citations'];
-                element.innerHTML = 'Citations: ' + numCitations;
-            });
-
-            // var totalPaper = Object.keys(data['publications']).length;
-            // totalPaper = Math.floor(totalPaper / 10) * 10;
-            var totalPaper = data['total_paper_number'];
-            var paperNumElement = document.getElementById('total_paper_number');
-            if (paperNumElement) {
-                paperNumElement.innerHTML = totalPaper;
-            } else {
-                console.warn("'total_paper_number' element not found!");
-            }
-
-            var hIndexElement = document.getElementById('h_index');
-            if (hIndexElement) {
-                hIndexElement.innerHTML = data['hindex'];
-            } else {
-                console.warn("'h_index' element not found!");
-            }
+$(document).ready(function () {
+    $.getJSON('https://raw.githubusercontent.com/{{ site.repository }}/google-scholar-stats/openalex_data.json', function (data) {
+        if (data.source !== 'OpenAlex' || data.schema_version !== 1 || data.author_id !== 'https://openalex.org/A5088725316') return;
+        var fields = {total_paper_number: 'works_count', h_index: 'hindex', openalex_citations: 'citedby'};
+        Object.keys(fields).forEach(function (id) {
+            var count = data[fields[id]], el = document.getElementById(id);
+            if (el && Number.isInteger(count) && count >= 0) el.textContent = count;
         });
-    })
+        var updated = document.getElementById('citation_updated');
+        if (updated && data.updated) updated.textContent = 'Updated: ' + data.updated.slice(0, 10) + ' (UTC).';
+    }); // On network/missing-snapshot errors retain N/A, never display Scholar data as OpenAlex.
+});
 </script>
-

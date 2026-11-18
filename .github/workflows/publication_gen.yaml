@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 9 * * *'
   workflow_run:
-    workflows: ['Get Citation Data']
+    workflows: ['Get OpenAlex Citation Data']
     types: [completed]
 permissions:
   contents: write
@@ -34,7 +34,8 @@ jobs:
       - name: Run publication generator script
         run: python publication_generator/pubGen.py
         env:
-          SCHOLAR_DATA_PATH: .scholar-stats/gs_data.json
+          OPENALEX_DATA_PATH: .scholar-stats/openalex_data.json
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
           GS_PRIVATE_KEY_ID: ${{ secrets.GS_PRIVATE_KEY_ID }}
           GS_PRIVATE_KEY: ${{ secrets.GS_PRIVATE_KEY }}
       - name: Commit and push changes
