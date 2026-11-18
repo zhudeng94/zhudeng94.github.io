@@ -49,6 +49,25 @@ class OpenAlexTests(unittest.TestCase):
         d=self.collect(); self.assertIsNone(match_work(d,'10.1234/a','Paper B'))
         self.assertIn('N/A',citation_badge(d,'10.1234/a','Paper B'))
         self.assertIn('OpenAlex%20citations-8',citation_badge(d,'10.1234/a','Paper A'))
+    def reviewed_fixture(self):
+        return {'works': {'https://openalex.org/W4416097588': {
+            'doi': '10.26599/cs.2025.9510006',
+            'title': 'Projection of global daily CO 2 emissions in 2025',
+            'num_citations': 3}}}
+    def test_owner_reviewed_title_exception(self):
+        d=self.reviewed_fixture()
+        self.assertIsNotNone(match_work(d,'10.26599/CS.2025.9510006','Projection of global daily CO2 emission in 2025'))
+    def test_reviewed_exception_does_not_allow_other_work_id(self):
+        d=self.reviewed_fixture();d['works']['https://openalex.org/W999']=d['works'].pop('https://openalex.org/W4416097588')
+        self.assertIsNone(match_work(d,'10.26599/cs.2025.9510006','Projection of global daily CO2 emission in 2025'))
+    def test_reviewed_exception_does_not_allow_changed_source_title(self):
+        d=self.reviewed_fixture();d['works']['https://openalex.org/W4416097588']['title']='Projection of global daily CO2 emissions in 2026'
+        self.assertIsNone(match_work(d,'10.26599/cs.2025.9510006','Projection of global daily CO2 emission in 2025'))
+    def test_reviewed_exception_does_not_allow_changed_catalogue_title(self):
+        self.assertIsNone(match_work(self.reviewed_fixture(),'10.26599/cs.2025.9510006','Projection of global daily CO2 emission in 2026'))
+    def test_reviewed_exception_still_rejects_ambiguous_doi(self):
+        d=self.reviewed_fixture();d['works']['https://openalex.org/W999']=dict(d['works']['https://openalex.org/W4416097588'])
+        self.assertIsNone(match_work(d,'10.26599/cs.2025.9510006','Projection of global daily CO2 emission in 2025'))
     def test_ambiguous_doi_not_accepted(self):
         d=self.collect();d['works']['https://openalex.org/W2']=dict(d['works']['https://openalex.org/W1'])
         self.assertIsNone(match_work(d,'10.1234/a','Paper A'))

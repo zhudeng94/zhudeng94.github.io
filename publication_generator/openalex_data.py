@@ -46,6 +46,14 @@ def load_data(path):
 def normalize_title(value):
     return re.sub(r'[^\w]', '', unicodedata.normalize('NFKC', str(value)).casefold())
 
+# Owner-reviewed exception, confirmed 2026-11-18. This is not fuzzy matching.
+# Scope: exact DOI + work ID + both normalized titles; no author-profile merge.
+REVIEWED_TITLE_MATCHES = {
+    ('10.26599/cs.2025.9510006', 'https://openalex.org/W4416097588',
+     normalize_title('Projection of global daily CO2 emission in 2025'),
+     normalize_title('Projection of global daily CO 2 emissions in 2025')),
+}
+
 def match_work(data, doi, title=None):
     doi = normalize_doi(doi)
     matches = [dict(w, id=i) for i, w in data['works'].items() if doi and w['doi'] == doi]
@@ -53,7 +61,9 @@ def match_work(data, doi, title=None):
     if len(matches) != 1:
         return None
     if title is not None and (not normalize_title(title) or normalize_title(title) != normalize_title(matches[0].get('title', ''))):
-        return None
+        reviewed = (doi, matches[0]['id'], normalize_title(title), normalize_title(matches[0].get('title', '')))
+        if reviewed not in REVIEWED_TITLE_MATCHES:
+            return None
     return matches[0]
 
 def citation_badge(data, doi, title):

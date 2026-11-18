@@ -23,3 +23,7 @@ The complete snapshot is validated before an atomic local replace. No publishing
 This is a draft migration, not authorization to merge/deploy. After approval and merge, run `Get OpenAlex Citation Data` on `main` once, then verify the new snapshot, generated DOI/title match coverage and Pages deployment. The homepage displays N/A until its first validated OpenAlex snapshot exists; it does not fall back to cached Scholar counts. See the dated audit for unresolved metadata and profile clustering issues. These require explicit reviewed data corrections, not fuzzy matching.
 
 Tests: `python -m unittest discover -s tests -v`; `python -m compileall -q publication_generator openalex_crawler tests`.
+
+## Explicit reviewed exception
+
+On 2026-11-18 the owner confirmed DOI `10.26599/CS.2025.9510006` maps to `W4416097588`. `REVIEWED_TITLE_MATCHES` permits only its recorded singular/plural title variant, with exact DOI and work ID and both normalized titles. It does not weaken global matching, merge author profiles, or accept ambiguous DOI results. Updated audited coverage: 50/52 (96.2%).

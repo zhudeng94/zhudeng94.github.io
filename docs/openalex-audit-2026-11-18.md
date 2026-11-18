@@ -37,3 +37,9 @@ Basic queries can currently run without a key. Basic paging supports this small 
 ## Verification limits
 
 This is a source-data audit, not production deployment verification. The migration is a draft PR only. No Scholar data files should be overwritten and the legacy files remain available for history. Actual fresh GSheet rendering and scheduled-run behaviour must be verified after separate merge authorization.
+
+## Owner-reviewed update (2026-11-18)
+
+The owner confirmed that *Projection of global daily CO2 emission in 2025*, DOI `10.26599/CS.2025.9510006`, is correctly represented by OpenAlex `W4416097588`. A fresh DOI lookup confirmed that ID, the plural source title, year 2025 and 3 citations. The title variant is now accepted only for this exact DOI, work ID, catalogue title and source title tuple. Duplicate matches still fail, and future ID/title changes require review. No author ORCID or profile mapping is changed.
+
+Current audited coverage is **50/52 (96.2%)**, including this one explicitly reviewed exception; selected papers 8/10. The two annual carbon-emissions articles remain N/A pending OpenAlex metadata correction. The earlier 49/52 figures above describe the pre-review strict-match audit.
