@@ -2,7 +2,7 @@ import pandas as pd
 import requests
 import gspread
 import os
-from citation_data import load_citation_data
+from openalex_data import load_data, citation_badge, catalogue_snapshot, match_work
 
 
 # 从 Google Spreadsheet 读取数据
@@ -34,8 +34,13 @@ df = read_google_sheet("https://docs.google.com/spreadsheets/d/1WK8TH28_nhs6fEpV
 df.date = pd.to_datetime(df.date)
 df.sort_values('date', ascending=False,  inplace=True)
 
-js = load_citation_data(os.environ.get('SCHOLAR_DATA_PATH'))
+profile = load_data(os.environ.get('OPENALEX_DATA_PATH'))
+js = catalogue_snapshot(df['doi'])
 
+matched = sum(match_work(js, row['doi'], row['title']) is not None for _, row in df.iterrows())
+if not matched:
+    raise ValueError("No title-confirmed OpenAlex matches; retaining previous output")
+print(f"OpenAlex exact DOI + title coverage: {matched}/{len(df)} catalogue rows; unresolved shown as N/A")
 selected_pub = ""
 all_pub = ""
 
@@ -50,11 +55,9 @@ for index, pub in df.iterrows():
     gsid = pub['gsid']
     doi = pub['doi']
 
-    cite_num = 0
     score = 0
 
-    if gsid in js['publications'].keys():
-        cite_num = js['publications'][gsid]['num_citations']
+    citation = citation_badge(js, doi, title)
 
     if doi != "":
         res = requests.get(f'https://api.altmetric.com/v1/internal-556fdf0f/doi/{doi}', timeout=30)
@@ -64,7 +67,7 @@ for index, pub in df.iterrows():
 
     if pub['selected'] == 1:
         tmp = (f"{i}. {','.join(author.split(',')[:3])}, et al. <a href='http://doi.org/{doi}'>{title}</a>. ***{journal}***. {year}."
-               f"<a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view={gsid}'><img src='https://img.shields.io/badge/Citations-{cite_num}-white?logo=googlescholar'></a> "
+               f"{citation}"
                f"<a href='https://www.altmetric.com/details.php?doi={doi}'><img src='https://img.shields.io/badge/🔥Altmetric-{score}-red'></a>"
                f"  \n")
         selected_pub += tmp
@@ -76,7 +79,7 @@ for index, pub in df.iterrows():
 
     tmp = (f"- {author}. <a href='http://doi.org/{doi}'>{title}</a>. ***{journal}***. {year}.   \n   "
            f"<div> "
-           f"<a href='https://scholar.google.com/citations?view_op=view_citation&citation_for_view={gsid}'><img src='https://img.shields.io/badge/Citations-{cite_num}-white?logo=googlescholar'></a> "
+           f"{citation}"
            f"<a href='https://www.altmetric.com/details.php?doi={doi}'><img src='https://img.shields.io/badge/🔥Altmetric-{score}-red'></a>"
            f"</div>   \n")
     all_pub += tmp

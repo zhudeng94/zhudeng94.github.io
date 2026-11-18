@@ -1,4 +1,5 @@
-name: Get Citation Data
+# Filename retained so existing workflow links continue to work. No Scholar requests.
+name: Get OpenAlex Citation Data
 on:
   workflow_dispatch:
   schedule:
@@ -6,45 +7,34 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: scholar-data-refresh
+  group: openalex-data-refresh
   cancel-in-progress: false
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/checkout@v4
         with:
+          # Reuse the existing data branch, preserving every gs_data*.json file.
           ref: google-scholar-stats
-          path: .scholar-stats
+          path: .citation-stats
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-          cache: pip
-          cache-dependency-path: google_scholar_crawler/requirements.txt
-      - name: Install dependencies
-        run: python -m pip install -r google_scholar_crawler/requirements.txt
-      - name: Verify scholarly imports
-        run: python -c 'from scholarly import scholarly; from bibtexparser.bibdatabase import BibDatabase'
-      - name: Retrieve citation data
-        working-directory: google_scholar_crawler
-        run: python main.py
+      - run: python -m pip install requests==2.32.5
+      - name: Retrieve and validate OpenAlex citation data
+        run: python openalex_crawler/main.py
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
-          GS_PRIVATE_KEY_ID: ${{ secrets.GS_PRIVATE_KEY_ID }}
-          GS_PRIVATE_KEY: ${{ secrets.GS_PRIVATE_KEY }}
-      - name: Validate and publish citation data
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+      - name: Publish complete OpenAlex snapshot
         run: |
-          PYTHONPATH=publication_generator python -c 'from citation_data import load_citation_data; load_citation_data("google_scholar_crawler/results/gs_data.json")'
-          cp google_scholar_crawler/results/gs_data*.json .scholar-stats/
-          cd .scholar-stats
+          cp openalex_crawler/results/openalex_data.json .citation-stats/
+          cd .citation-stats
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-          git add gs_data*.json
-          if git diff --cached --quiet; then
-            echo "Citation output unchanged."
-            exit 0
-          fi
-          git commit -m "Updated Citation Data"
+          git add openalex_data.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update OpenAlex citation data"
           git push origin HEAD:google-scholar-stats

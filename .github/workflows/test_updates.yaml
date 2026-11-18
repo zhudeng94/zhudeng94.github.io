@@ -12,8 +12,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python -m pip install -r google_scholar_crawler/requirements.txt -r publication_generator/requirements.txt
+      - run: python -m pip install -r publication_generator/requirements.txt
       - run: python -m pip check
-      - run: python -c 'from scholarly import scholarly; from bibtexparser.bibdatabase import BibDatabase'
       - run: python -m unittest discover -s tests -v
-      - run: python -m compileall -q publication_generator google_scholar_crawler tests
+      - run: python -m compileall -q publication_generator openalex_crawler tests
