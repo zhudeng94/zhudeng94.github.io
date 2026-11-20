@@ -3,28 +3,28 @@
   "source": "OpenAlex",
   "author_id": "https://openalex.org/A5088725316",
   "orcid": "https://orcid.org/0000-0002-6409-9578",
-  "updated": "2026-11-19T17:09:40.244628+00:00",
+  "updated": "2026-11-20T16:48:10.332045+00:00",
   "works_count": 81,
   "retrieved_works_count": 79,
-  "citedby": 8584,
+  "citedby": 8608,
   "hindex": 35,
   "works": {
     "https://openalex.org/W4200336467": {
       "doi": "10.1038/s43017-021-00244-x",
       "title": "Challenges and opportunities for carbon neutrality in China",
-      "num_citations": 1892,
+      "num_citations": 1897,
       "year": 2021
     },
     "https://openalex.org/W3093475346": {
       "doi": "10.1038/s41467-020-18922-7",
       "title": "Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic",
-      "num_citations": 963,
+      "num_citations": 962,
       "year": 2020
     },
     "https://openalex.org/W4324026861": {
       "doi": "10.1038/s43017-023-00406-z",
       "title": "Monitoring global carbon emissions in 2022",
-      "num_citations": 620,
+      "num_citations": 622,
       "year": 2023
     },
     "https://openalex.org/W4220778568": {
@@ -36,19 +36,19 @@
     "https://openalex.org/W4393938405": {
       "doi": "10.1038/s43017-024-00532-2",
       "title": "Global carbon emissions in 2023",
-      "num_citations": 522,
+      "num_citations": 524,
       "year": 2024
     },
     "https://openalex.org/W3035056877": {
       "doi": "10.1038/s41597-020-00708-7",
       "title": "Carbon Monitor, a near-real-time daily dataset of global CO2 emission from fossil fuel and cement production",
-      "num_citations": 370,
+      "num_citations": 369,
       "year": 2020
     },
     "https://openalex.org/W4409363555": {
-      "doi": "10.1038/s43017-026-00780-4",
+      "doi": "10.1038/s43017-025-00658-x",
       "title": "Global carbon emissions and decarbonization in 2024",
-      "num_citations": 328,
+      "num_citations": 301,
       "year": 2025
     },
     "https://openalex.org/W4226333000": {
@@ -114,7 +114,7 @@
     "https://openalex.org/W4221084249": {
       "doi": "10.1038/s41558-022-01332-6",
       "title": "Emissions rebound from the COVID-19 pandemic",
-      "num_citations": 112,
+      "num_citations": 113,
       "year": 2022
     },
     "https://openalex.org/W3020985045": {
@@ -144,7 +144,7 @@
     "https://openalex.org/W4319063039": {
       "doi": "10.1038/s41597-023-01963-0",
       "title": "Near-real-time global gridded daily CO2 emissions 2021",
-      "num_citations": 84,
+      "num_citations": 85,
       "year": 2023
     },
     "https://openalex.org/W3096254201": {
@@ -211,7 +211,7 @@
       "doi": "10.1029/2021ef002250",
       "title": "Impact of Lockdowns and Winter Temperatures on Natural Gas Consumption in Europe",
       "num_citations": 39,
-      "year": 2021
+      "year": 2022
     },
     "https://openalex.org/W4408573951": {
       "doi": "10.5194/essd-17-1121-2025",
@@ -222,7 +222,7 @@
     "https://openalex.org/W4366086895": {
       "doi": "10.1038/s41597-023-02094-2",
       "title": "CarbonMonitor-Power near-real-time monitoring of global power generation on hourly to daily scales",
-      "num_citations": 31,
+      "num_citations": 32,
       "year": 2023
     },
     "https://openalex.org/W4308921439": {
