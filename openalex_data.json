@@ -3,7 +3,7 @@
   "source": "OpenAlex",
   "author_id": "https://openalex.org/A5088725316",
   "orcid": "https://orcid.org/0000-0002-6409-9578",
-  "updated": "2026-11-21T15:57:42.770260+00:00",
+  "updated": "2026-11-22T16:01:17.152698+00:00",
   "works_count": 81,
   "retrieved_works_count": 79,
   "citedby": 8678,
@@ -12,37 +12,37 @@
     "https://openalex.org/W4200336467": {
       "doi": "10.1038/s43017-021-00244-x",
       "title": "Challenges and opportunities for carbon neutrality in China",
-      "num_citations": 1904,
+      "num_citations": 1905,
       "year": 2021
     },
     "https://openalex.org/W3093475346": {
       "doi": "10.1038/s41467-020-18922-7",
       "title": "Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic",
-      "num_citations": 968,
+      "num_citations": 974,
       "year": 2020
     },
     "https://openalex.org/W4324026861": {
       "doi": "10.1038/s43017-023-00406-z",
       "title": "Monitoring global carbon emissions in 2022",
-      "num_citations": 625,
+      "num_citations": 627,
       "year": 2023
     },
     "https://openalex.org/W4220778568": {
       "doi": "10.1038/s43017-022-00285-w",
       "title": "Monitoring global carbon emissions in 2021",
-      "num_citations": 604,
+      "num_citations": 607,
       "year": 2022
     },
     "https://openalex.org/W4393938405": {
       "doi": "10.1038/s43017-024-00532-2",
       "title": "Global carbon emissions in 2023",
-      "num_citations": 525,
+      "num_citations": 526,
       "year": 2024
     },
     "https://openalex.org/W3035056877": {
       "doi": "10.1038/s41597-020-00708-7",
       "title": "Carbon Monitor, a near-real-time daily dataset of global CO2 emission from fossil fuel and cement production",
-      "num_citations": 372,
+      "num_citations": 373,
       "year": 2020
     },
     "https://openalex.org/W4409363555": {
@@ -66,13 +66,13 @@
     "https://openalex.org/W4387267196": {
       "doi": "10.1038/s41561-023-01274-4",
       "title": "Global increase in biomass carbon stock dominated by growth of northern young forests over past decade",
-      "num_citations": 224,
+      "num_citations": 226,
       "year": 2023
     },
     "https://openalex.org/W3171388596": {
       "doi": "10.1016/s2542-5196(21)00131-5",
       "title": "Population ageing and deaths attributable to ambient PM2·5 pollution: a global analysis of economic cost",
-      "num_citations": 196,
+      "num_citations": 197,
       "year": 2021
     },
     "https://openalex.org/W4323362488": {
@@ -84,12 +84,18 @@
     "https://openalex.org/W4405740139": {
       "doi": "10.1016/j.jclepro.2024.144572",
       "title": "ESGReveal: An LLM-based approach for extracting structured data from ESG reports",
-      "num_citations": 157,
+      "num_citations": 159,
       "year": 2024
     },
     "https://openalex.org/W4283728299": {
       "doi": "10.1038/s41561-022-00965-8",
       "title": "Global patterns of daily CO2 emissions reductions in the first year of COVID-19",
+      "num_citations": 147,
+      "year": 2022
+    },
+    "https://openalex.org/W4224902993": {
+      "doi": "10.1038/s41597-022-01657-z",
+      "title": "Carbon Monitor Cities near-real-time daily estimates of CO2 emissions from 1500 cities worldwide",
       "num_citations": 146,
       "year": 2022
     },
@@ -97,12 +103,6 @@
       "doi": "10.1016/j.eng.2021.12.019",
       "title": "Near-Real-Time Carbon Emission Accounting Technology Toward Carbon Neutrality",
       "num_citations": 146,
-      "year": 2022
-    },
-    "https://openalex.org/W4224902993": {
-      "doi": "10.1038/s41597-022-01657-z",
-      "title": "Carbon Monitor Cities near-real-time daily estimates of CO2 emissions from 1500 cities worldwide",
-      "num_citations": 145,
       "year": 2022
     },
     "https://openalex.org/W3209953998": {
@@ -186,19 +186,19 @@
     "https://openalex.org/W4379875502": {
       "doi": "10.1038/s41597-023-02284-y",
       "title": "Carbon Monitor Europe near-real-time daily CO2 emissions for 27 EU countries and the United Kingdom",
-      "num_citations": 51,
+      "num_citations": 52,
       "year": 2023
     },
     "https://openalex.org/W3136139513": {
       "doi": "10.1016/j.adapen.2021.100017",
       "title": "Estimates of daily ground-level NO2 concentrations in China based on Random Forest model integrated K-means",
-      "num_citations": 51,
+      "num_citations": 52,
       "year": 2021
     },
     "https://openalex.org/W4308886066": {
       "doi": "10.1038/s41597-022-01796-3",
       "title": "Near-real-time daily estimates of fossil fuel CO2 emissions from major high-emission cities in China",
-      "num_citations": 44,
+      "num_citations": 45,
       "year": 2022
     },
     "https://openalex.org/W4220791108": {
