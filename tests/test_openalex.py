@@ -48,7 +48,7 @@ class OpenAlexTests(unittest.TestCase):
     def test_strict_title_mismatch_not_accepted(self):
         d=self.collect(); self.assertIsNone(match_work(d,'10.1234/a','Paper B'))
         self.assertIn('N/A',citation_badge(d,'10.1234/a','Paper B'))
-        self.assertIn('OpenAlex%20citations-8',citation_badge(d,'10.1234/a','Paper A'))
+        self.assertIn('citations-8',citation_badge(d,'10.1234/a','Paper A'))
     def reviewed_fixture(self):
         return {'works': {'https://openalex.org/W4416097588': {
             'doi': '10.26599/cs.2025.9510006',

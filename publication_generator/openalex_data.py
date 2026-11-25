@@ -69,9 +69,9 @@ def match_work(data, doi, title=None):
 def citation_badge(data, doi, title):
     work = match_work(data, doi, title)
     if work is None:
-        return '<span title="No unique exact DOI and title match in OpenAlex">OpenAlex citations: N/A</span> '
-    return (f"<a href='{work['id']}'><img alt='OpenAlex citations: {work['num_citations']}' "
-            f"src='https://img.shields.io/badge/OpenAlex%20citations-{work['num_citations']}-white'></a> ")
+        return '<span title="No unique exact DOI and title match in OpenAlex">citations: N/A</span> '
+    return (f"<a href='{work['id']}'><img alt='citations: {work['num_citations']}' "
+            f"src='https://img.shields.io/badge/citations-{work['num_citations']}-white'></a> ")
 
 
 def catalogue_snapshot(dois):

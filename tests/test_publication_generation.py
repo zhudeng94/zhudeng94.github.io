@@ -36,7 +36,7 @@ class PublicationGenerationTests(unittest.TestCase):
     def test_exact_match_renders_count(self):
         outputs,error=self.run_generator(self.valid_data(), '10.1234/a', self.valid_data())
         self.assertIsNone(error)
-        for output in outputs: self.assertIn('OpenAlex%20citations-37',output)
+        for output in outputs: self.assertIn('citations-37',output)
     def test_title_mismatch_renders_na(self):
         fixture=self.valid_data(); fixture['works']['https://openalex.org/W1']['title']='Different paper'
         outputs,error=self.run_generator(self.valid_data(), '10.1234/a', fixture)
