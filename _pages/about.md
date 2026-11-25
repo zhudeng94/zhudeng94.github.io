@@ -15,7 +15,7 @@ I am currently a postdoctoral research fellow in the Department of Geography,
 The University of Hong Kong. 
 
 I have been working on **near-real-time carbon accounting**, **greenhouse gas budget reconciliation** and **sustainability data** research.
-According to my <a href="https://openalex.org/A5088725316">OpenAlex author profile</a>, <span id='total_paper_number'>N/A</span> works are indexed, with an h-index of <span id='h_index'>N/A</span> and <span id='openalex_citations'>N/A</span> citations. OpenAlex coverage differs from Google Scholar and from the curated publication list below. <span id='citation_updated'></span>
+I have published 51 papers, with an h-index of <span title="Google Scholar snapshot: 2026-09-07">32</span> and a total of <a href="https://scholar.google.com/citations?user=bzZYiBgAAAAJ"><img alt="Google Scholar citations: 8257 (2026-09-07)" title="Google Scholar snapshot: 2026-09-07" src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fzhudeng94%2Fzhudeng94.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 If you are seeking any form of academic cooperation, please feel free to [email me](mailto:zhudeng@hku.hk). We are hiring interns!
 
