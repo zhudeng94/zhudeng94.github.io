@@ -3,65 +3,59 @@
   "source": "OpenAlex",
   "author_id": "https://openalex.org/A5088725316",
   "orcid": "https://orcid.org/0000-0002-6409-9578",
-  "updated": "2026-11-24T19:24:31.482667+00:00",
+  "updated": "2026-11-25T18:30:33.165870+00:00",
   "works_count": 81,
   "retrieved_works_count": 79,
-  "citedby": 8721,
+  "citedby": 8584,
   "hindex": 35,
   "works": {
     "https://openalex.org/W4200336467": {
       "doi": "10.1038/s43017-021-00244-x",
       "title": "Challenges and opportunities for carbon neutrality in China",
-      "num_citations": 1908,
+      "num_citations": 1905,
       "year": 2021
     },
     "https://openalex.org/W3093475346": {
       "doi": "10.1038/s41467-020-18922-7",
       "title": "Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic",
-      "num_citations": 986,
+      "num_citations": 965,
       "year": 2020
     },
     "https://openalex.org/W4324026861": {
       "doi": "10.1038/s43017-023-00406-z",
       "title": "Monitoring global carbon emissions in 2022",
-      "num_citations": 629,
+      "num_citations": 606,
       "year": 2023
     },
     "https://openalex.org/W4220778568": {
       "doi": "10.1038/s43017-022-00285-w",
       "title": "Monitoring global carbon emissions in 2021",
-      "num_citations": 608,
+      "num_citations": 606,
       "year": 2022
     },
     "https://openalex.org/W4393938405": {
       "doi": "10.1038/s43017-024-00532-2",
       "title": "Global carbon emissions in 2023",
-      "num_citations": 527,
+      "num_citations": 522,
       "year": 2024
     },
     "https://openalex.org/W3035056877": {
       "doi": "10.1038/s41597-020-00708-7",
       "title": "Carbon Monitor, a near-real-time daily dataset of global CO2 emission from fossil fuel and cement production",
-      "num_citations": 375,
+      "num_citations": 371,
       "year": 2020
     },
     "https://openalex.org/W4409363555": {
       "doi": "10.1038/s43017-025-00658-x",
       "title": "Global carbon emissions and decarbonization in 2024",
-      "num_citations": 300,
+      "num_citations": 294,
       "year": 2025
     },
     "https://openalex.org/W4226333000": {
       "doi": "10.5194/essd-14-1639-2022",
       "title": "Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions",
-      "num_citations": 281,
+      "num_citations": 274,
       "year": 2022
-    },
-    "https://openalex.org/W3107943296": {
-      "doi": "10.1038/s41467-020-20254-5",
-      "title": "Author Correction: Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic",
-      "num_citations": 252,
-      "year": 2020
     },
     "https://openalex.org/W4387267196": {
       "doi": "10.1038/s41561-023-01274-4",
@@ -69,16 +63,22 @@
       "num_citations": 228,
       "year": 2023
     },
+    "https://openalex.org/W3107943296": {
+      "doi": "10.1038/s41467-020-20254-5",
+      "title": "Author Correction: Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic",
+      "num_citations": 225,
+      "year": 2020
+    },
     "https://openalex.org/W3171388596": {
       "doi": "10.1016/s2542-5196(21)00131-5",
       "title": "Population ageing and deaths attributable to ambient PM2·5 pollution: a global analysis of economic cost",
-      "num_citations": 200,
+      "num_citations": 199,
       "year": 2021
     },
     "https://openalex.org/W4323362488": {
       "doi": "10.5194/essd-15-963-2023",
       "title": "National CO 2 budgets (2015–2020) inferred from atmospheric CO 2 observations in support of the global stocktake",
-      "num_citations": 194,
+      "num_citations": 191,
       "year": 2023
     },
     "https://openalex.org/W4405740139": {
@@ -93,35 +93,29 @@
       "num_citations": 148,
       "year": 2022
     },
-    "https://openalex.org/W4224902993": {
-      "doi": "10.1038/s41597-022-01657-z",
-      "title": "Carbon Monitor Cities near-real-time daily estimates of CO2 emissions from 1500 cities worldwide",
-      "num_citations": 146,
-      "year": 2022
-    },
     "https://openalex.org/W4220810246": {
       "doi": "10.1016/j.eng.2021.12.019",
       "title": "Near-Real-Time Carbon Emission Accounting Technology Toward Carbon Neutrality",
-      "num_citations": 146,
+      "num_citations": 145,
+      "year": 2022
+    },
+    "https://openalex.org/W4224902993": {
+      "doi": "10.1038/s41597-022-01657-z",
+      "title": "Carbon Monitor Cities near-real-time daily estimates of CO2 emissions from 1500 cities worldwide",
+      "num_citations": 142,
       "year": 2022
     },
     "https://openalex.org/W3209953998": {
       "doi": "10.1088/1748-9326/ac55b6",
       "title": "Global fossil carbon emissions rebound near pre-COVID-19 levels",
-      "num_citations": 128,
+      "num_citations": 129,
       "year": 2022
     },
     "https://openalex.org/W3209157369": {
       "doi": "10.1016/j.xinn.2021.100182",
       "title": "Near-real-time global gridded daily CO2 emissions",
-      "num_citations": 127,
+      "num_citations": 122,
       "year": 2021
-    },
-    "https://openalex.org/W3020985045": {
-      "doi": "10.48550/arxiv.2004.13614",
-      "title": "COVID-19 causes record decline in global CO2 emissions",
-      "num_citations": 120,
-      "year": 2020
     },
     "https://openalex.org/W4221084249": {
       "doi": "10.1038/s41558-022-01332-6",
@@ -129,10 +123,16 @@
       "num_citations": 116,
       "year": 2022
     },
+    "https://openalex.org/W3020985045": {
+      "doi": "10.48550/arxiv.2004.13614",
+      "title": "COVID-19 causes record decline in global CO2 emissions",
+      "num_citations": 106,
+      "year": 2020
+    },
     "https://openalex.org/W4390733810": {
       "doi": "10.1038/s43247-023-01190-w",
       "title": "Assessment of methane emissions from oil, gas and coal sectors across inventories and atmospheric inversions",
-      "num_citations": 97,
+      "num_citations": 95,
       "year": 2024
     },
     "https://openalex.org/W2967171552": {
@@ -141,17 +141,17 @@
       "num_citations": 88,
       "year": 2019
     },
-    "https://openalex.org/W4319063039": {
-      "doi": "10.1038/s41597-023-01963-0",
-      "title": "Near-real-time global gridded daily CO2 emissions 2021",
-      "num_citations": 86,
-      "year": 2023
-    },
     "https://openalex.org/W3096254201": {
       "doi": "10.1029/2020gl090244",
       "title": "Local Anomalies in the Column‐Averaged Dry Air Mole Fractions of Carbon Dioxide Across the Globe During the First Months of the Coronavirus Recession",
       "num_citations": 81,
       "year": 2020
+    },
+    "https://openalex.org/W4319063039": {
+      "doi": "10.1038/s41597-023-01963-0",
+      "title": "Near-real-time global gridded daily CO2 emissions 2021",
+      "num_citations": 72,
+      "year": 2023
     },
     "https://openalex.org/W2949220266": {
       "doi": "10.1021/acs.est.9b01117",
@@ -177,16 +177,10 @@
       "num_citations": 56,
       "year": 2019
     },
-    "https://openalex.org/W4298191149": {
-      "doi": "10.1186/s13021-022-00214-w",
-      "title": "On the use of Earth Observation to support estimates of national greenhouse gas emissions and sinks for the Global stocktake process: lessons learned from ESA-CCI RECCAP2",
-      "num_citations": 53,
-      "year": 2022
-    },
     "https://openalex.org/W4379875502": {
       "doi": "10.1038/s41597-023-02284-y",
       "title": "Carbon Monitor Europe near-real-time daily CO2 emissions for 27 EU countries and the United Kingdom",
-      "num_citations": 52,
+      "num_citations": 53,
       "year": 2023
     },
     "https://openalex.org/W3136139513": {
@@ -194,6 +188,12 @@
       "title": "Estimates of daily ground-level NO2 concentrations in China based on Random Forest model integrated K-means",
       "num_citations": 52,
       "year": 2021
+    },
+    "https://openalex.org/W4298191149": {
+      "doi": "10.1186/s13021-022-00214-w",
+      "title": "On the use of Earth Observation to support estimates of national greenhouse gas emissions and sinks for the Global stocktake process: lessons learned from ESA-CCI RECCAP2",
+      "num_citations": 50,
+      "year": 2022
     },
     "https://openalex.org/W4308886066": {
       "doi": "10.1038/s41597-022-01796-3",
@@ -213,17 +213,17 @@
       "num_citations": 40,
       "year": 2020
     },
-    "https://openalex.org/W4408573951": {
-      "doi": "10.5194/essd-17-1121-2025",
-      "title": "Global greenhouse gas reconciliation 2022",
-      "num_citations": 36,
-      "year": 2025
-    },
     "https://openalex.org/W4366086895": {
       "doi": "10.1038/s41597-023-02094-2",
       "title": "CarbonMonitor-Power near-real-time monitoring of global power generation on hourly to daily scales",
       "num_citations": 35,
       "year": 2023
+    },
+    "https://openalex.org/W4408573951": {
+      "doi": "10.5194/essd-17-1121-2025",
+      "title": "Global greenhouse gas reconciliation 2022",
+      "num_citations": 33,
+      "year": 2025
     },
     "https://openalex.org/W4308921439": {
       "doi": "10.1016/j.xinn.2022.100346",
@@ -234,7 +234,7 @@
     "https://openalex.org/W4385714119": {
       "doi": "10.48550/arxiv.2308.04241",
       "title": "AutoPCF: Efficient Product Carbon Footprint Accounting with Large Language Models",
-      "num_citations": 19,
+      "num_citations": 20,
       "year": 2023
     },
     "https://openalex.org/W3169989404": {
@@ -276,13 +276,13 @@
     "https://openalex.org/W4210948314": {
       "doi": "10.5194/essd-2021-153",
       "title": "Daily CO2 emission for China's provinces in 2019 and 2020",
-      "num_citations": 9,
+      "num_citations": 8,
       "year": 2021
     },
     "https://openalex.org/W4394717217": {
       "doi": "10.5194/gmd-17-2663-2024",
       "title": "Carbon Monitor Power-Simulators (CMP-SIM v1.0) across countries: a data-driven approach to simulate daily power generation",
-      "num_citations": 7,
+      "num_citations": 6,
       "year": 2024
     },
     "https://openalex.org/W4416651777": {
@@ -297,23 +297,17 @@
       "num_citations": 4,
       "year": 2023
     },
-    "https://openalex.org/W4393529338": {
-      "doi": "10.5281/zenodo.8325355",
-      "title": "Global greenhouse gas reconciliation 2022",
-      "num_citations": 4,
-      "year": 2023
-    },
     "https://openalex.org/W4394040502": {
       "doi": "10.5281/zenodo.5089798",
       "title": "GHG data from inverse models and UNFCCC national inventories v0.1",
       "num_citations": 4,
       "year": 2021
     },
-    "https://openalex.org/W4400369012": {
-      "doi": "10.5194/essd-2024-103-supplement",
-      "title": "Supplementary material to \"Global Greenhouse Gas Reconciliation 2022\"",
+    "https://openalex.org/W4393529338": {
+      "doi": "10.5281/zenodo.8325355",
+      "title": "Global greenhouse gas reconciliation 2022",
       "num_citations": 3,
-      "year": 2024
+      "year": 2023
     },
     "https://openalex.org/W4394267184": {
       "doi": "10.6084/m9.figshare.20219024",
@@ -333,12 +327,6 @@
       "num_citations": 3,
       "year": 2021
     },
-    "https://openalex.org/W4394382307": {
-      "doi": "10.6084/m9.figshare.12685937",
-      "title": "Daily updated dataset of national and global CO2 emissions from fossil fuel and cement production",
-      "num_citations": 3,
-      "year": 2020
-    },
     "https://openalex.org/W2525572912": {
       "doi": "10.1109/agro-geoinformatics.2016.7577677",
       "title": "Floating car data processing model based on Hadoop-GIS tools",
@@ -350,12 +338,6 @@
       "title": "Analysis of Regional Surface CO2 Fluxes Using the MEGA Satellite Data Assimilation System",
       "num_citations": 2,
       "year": 2025
-    },
-    "https://openalex.org/W4321489589": {
-      "doi": "10.5194/egusphere-egu23-4558",
-      "title": "Carbon Monitor Europe, a near-real-time and country-level monitoring of daily CO2 emissions for European Union and the United Kingdom",
-      "num_citations": 2,
-      "year": 2023
     },
     "https://openalex.org/W4394263810": {
       "doi": "10.6084/m9.figshare.19425665",
@@ -369,11 +351,23 @@
       "num_citations": 2,
       "year": 2020
     },
+    "https://openalex.org/W4394382307": {
+      "doi": "10.6084/m9.figshare.12685937",
+      "title": "Daily updated dataset of national and global CO2 emissions from fossil fuel and cement production",
+      "num_citations": 2,
+      "year": 2020
+    },
     "https://openalex.org/W7155363179": {
       "doi": "10.1016/j.resconrec.2026.108965",
       "title": "East Asia’s terrestrial carbon sink revisited: How fossil fuel emission uncertainties reshape regional carbon sink and implications for global carbon budgets",
       "num_citations": 1,
       "year": 2026
+    },
+    "https://openalex.org/W4321489589": {
+      "doi": "10.5194/egusphere-egu23-4558",
+      "title": "Carbon Monitor Europe, a near-real-time and country-level monitoring of daily CO2 emissions for European Union and the United Kingdom",
+      "num_citations": 1,
+      "year": 2023
     },
     "https://openalex.org/W4394446639": {
       "doi": "10.6084/m9.figshare.21085897",
@@ -386,12 +380,6 @@
       "title": "Near-real-time daily estimates of fossil fuel CO2 emissions from 48 cities in China",
       "num_citations": 1,
       "year": 2022
-    },
-    "https://openalex.org/W3164243525": {
-      "doi": "10.5194/egusphere-egu21-5838",
-      "title": "China's Carbon Budget",
-      "num_citations": 1,
-      "year": 2021
     },
     "https://openalex.org/W4394230565": {
       "doi": "10.6084/m9.figshare.13647686",
@@ -410,6 +398,12 @@
       "title": "Global Greenhous Gas Reconciliation 2025",
       "num_citations": 0,
       "year": 2026
+    },
+    "https://openalex.org/W4400369012": {
+      "doi": "10.5194/essd-2024-103-supplement",
+      "title": "Supplementary material to \"Global Greenhouse Gas Reconciliation 2022\"",
+      "num_citations": 0,
+      "year": 2024
     },
     "https://openalex.org/W4394034730": {
       "doi": "10.5281/zenodo.10277299",
@@ -462,6 +456,12 @@
     "https://openalex.org/W4210285315": {
       "doi": "10.5194/essd-2021-235-supplement",
       "title": "Supplementary material to \"Comparing national greenhouse gas budgets reported in UNFCCC inventories against atmospheric inversions\"",
+      "num_citations": 0,
+      "year": 2021
+    },
+    "https://openalex.org/W3164243525": {
+      "doi": "10.5194/egusphere-egu21-5838",
+      "title": "China's Carbon Budget",
       "num_citations": 0,
       "year": 2021
     },
