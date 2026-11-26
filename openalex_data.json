@@ -3,28 +3,28 @@
   "source": "OpenAlex",
   "author_id": "https://openalex.org/A5088725316",
   "orcid": "https://orcid.org/0000-0002-6409-9578",
-  "updated": "2026-11-25T18:30:33.165870+00:00",
+  "updated": "2026-11-26T18:13:01.097773+00:00",
   "works_count": 81,
   "retrieved_works_count": 79,
-  "citedby": 8584,
+  "citedby": 8600,
   "hindex": 35,
   "works": {
     "https://openalex.org/W4200336467": {
       "doi": "10.1038/s43017-021-00244-x",
       "title": "Challenges and opportunities for carbon neutrality in China",
-      "num_citations": 1905,
+      "num_citations": 1906,
       "year": 2021
     },
     "https://openalex.org/W3093475346": {
       "doi": "10.1038/s41467-020-18922-7",
       "title": "Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic",
-      "num_citations": 965,
+      "num_citations": 970,
       "year": 2020
     },
     "https://openalex.org/W4324026861": {
       "doi": "10.1038/s43017-023-00406-z",
       "title": "Monitoring global carbon emissions in 2022",
-      "num_citations": 606,
+      "num_citations": 608,
       "year": 2023
     },
     "https://openalex.org/W4220778568": {
@@ -48,7 +48,7 @@
     "https://openalex.org/W4409363555": {
       "doi": "10.1038/s43017-025-00658-x",
       "title": "Global carbon emissions and decarbonization in 2024",
-      "num_citations": 294,
+      "num_citations": 295,
       "year": 2025
     },
     "https://openalex.org/W4226333000": {
@@ -60,7 +60,7 @@
     "https://openalex.org/W4387267196": {
       "doi": "10.1038/s41561-023-01274-4",
       "title": "Global increase in biomass carbon stock dominated by growth of northern young forests over past decade",
-      "num_citations": 228,
+      "num_citations": 229,
       "year": 2023
     },
     "https://openalex.org/W3107943296": {
@@ -78,13 +78,13 @@
     "https://openalex.org/W4323362488": {
       "doi": "10.5194/essd-15-963-2023",
       "title": "National CO 2 budgets (2015–2020) inferred from atmospheric CO 2 observations in support of the global stocktake",
-      "num_citations": 191,
+      "num_citations": 192,
       "year": 2023
     },
     "https://openalex.org/W4405740139": {
       "doi": "10.1016/j.jclepro.2024.144572",
       "title": "ESGReveal: An LLM-based approach for extracting structured data from ESG reports",
-      "num_citations": 158,
+      "num_citations": 159,
       "year": 2024
     },
     "https://openalex.org/W4283728299": {
@@ -120,7 +120,7 @@
     "https://openalex.org/W4221084249": {
       "doi": "10.1038/s41558-022-01332-6",
       "title": "Emissions rebound from the COVID-19 pandemic",
-      "num_citations": 116,
+      "num_citations": 117,
       "year": 2022
     },
     "https://openalex.org/W3020985045": {
@@ -132,7 +132,7 @@
     "https://openalex.org/W4390733810": {
       "doi": "10.1038/s43247-023-01190-w",
       "title": "Assessment of methane emissions from oil, gas and coal sectors across inventories and atmospheric inversions",
-      "num_citations": 95,
+      "num_citations": 96,
       "year": 2024
     },
     "https://openalex.org/W2967171552": {
@@ -144,7 +144,7 @@
     "https://openalex.org/W3096254201": {
       "doi": "10.1029/2020gl090244",
       "title": "Local Anomalies in the Column‐Averaged Dry Air Mole Fractions of Carbon Dioxide Across the Globe During the First Months of the Coronavirus Recession",
-      "num_citations": 81,
+      "num_citations": 82,
       "year": 2020
     },
     "https://openalex.org/W4319063039": {
@@ -168,7 +168,7 @@
     "https://openalex.org/W4380789872": {
       "doi": "10.5194/acp-23-6599-2023",
       "title": "Monitoring and quantifying CO 2 emissions of isolated power plants from space",
-      "num_citations": 59,
+      "num_citations": 60,
       "year": 2023
     },
     "https://openalex.org/W2961693356": {
